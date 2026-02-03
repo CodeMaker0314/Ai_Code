@@ -23,7 +23,7 @@ player = Player(100, 100)
 # Main Loop
 while running:
     # Change this tick will change game speed
-    dt = clock.tick(60) / 1000.0
+    dt = clock.tick(60)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
