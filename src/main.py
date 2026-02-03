@@ -1,5 +1,6 @@
 import pygame
 from Initial_map import *
+from player import Player
 
 pygame.init()
 
@@ -17,21 +18,26 @@ running = True
 
 # Create Map Item (Include hole, grid, space)
 game_map = Game_map_init(hole_size=60)
+player = Player(100, 100)
 
 # Main Loop
 while running:
     # Change this tick will change game speed
-    clock.tick(60)
+    dt = clock.tick(60) / 1000.0
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+    keys = pygame.key.get_pressed()
+    player.update(dt, keys, screen.get_rect())
 
     screen.fill(WHITE)
 
     # Draw the map
     game_map.draw_grid(screen)
     game_map.draw_hole(screen)
+    player.draw(screen)
 
     pygame.display.flip()
 
