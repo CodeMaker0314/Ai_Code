@@ -17,8 +17,10 @@ clock = pygame.time.Clock()
 running = True
 
 # Create Map Item (Include hole, grid, space)
-game_map = Game_map_init(hole_size=60)
-player = Player(100, 100)
+game_map = Game_map_init(hole_size=60, endpoint_size=60, startpoint_size=60)
+start_rect = game_map.get_startpoint_rect()
+start_center = start_rect.center if start_rect else (0, 0)
+player = Player(start_center[0], start_center[1], grid_size=game_map.hole_size)
 
 # Main Loop
 while running:
@@ -28,15 +30,25 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-
-    keys = pygame.key.get_pressed()
-    player.update(dt, keys, screen.get_rect())
+        if event.type == pygame.KEYDOWN:
+            moved = player.handle_key(event.key, screen.get_rect())
+            if moved:
+                result = player.update_tile_score(game_map, start_center)
+                if result is not None:
+                    steps, score, steps_x, steps_y = result
+                    print(f"Steps: {steps}, Score: {score}")
+                result = player.check_endpoint_and_reset(game_map.get_endpoint_rect(), start_center)
+                if result is not None:
+                    steps, score, steps_x, steps_y = result
+                    print(f"Steps: {steps}, Score: {score}")
 
     screen.fill(WHITE)
 
     # Draw the map
     game_map.draw_grid(screen)
     game_map.draw_hole(screen)
+    game_map.draw_endpoint(screen)
+    game_map.draw_startpoint(screen)
     player.draw(screen)
 
     pygame.display.flip()
