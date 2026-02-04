@@ -26,6 +26,7 @@ class Game_map_init:
         self.green = (0, 255, 0)
         self.blue = (0, 0, 255)
 
+    # Draw grid
     def draw_grid(self, screen):
         width = self.cols * self.hole_size
         height = self.rows * self.hole_size
@@ -35,6 +36,7 @@ class Game_map_init:
         for y in range(0, height, self.hole_size):
             pygame.draw.line(screen, self.gray, (0, y), (width, y))
 
+    # Draw hole
     def draw_hole(self, screen):
         for row in range(self.rows):
             for col in range(self.cols):
@@ -44,6 +46,7 @@ class Game_map_init:
                     rect = pygame.Rect(x, y, self.hole_size, self.hole_size)
                     pygame.draw.rect(screen, self.black, rect)
 
+    # Draw endpoint
     def draw_endpoint(self, screen):
         for row in range(self.rows):
             for col in range(self.cols):
@@ -53,6 +56,7 @@ class Game_map_init:
                     rect = pygame.Rect(x, y, self.endpoint_size, self.endpoint_size)
                     pygame.draw.rect(screen, self.green, rect)
 
+    # Draw startpoint
     def draw_startpoint(self, screen):
         for row in range(self.rows):
             for col in range(self.cols):
@@ -62,6 +66,7 @@ class Game_map_init:
                     rect = pygame.Rect(x, y, self.startpoint_size, self.startpoint_size)
                     pygame.draw.rect(screen, self.blue, rect)
 
+    # Initial the title setting(posion, rect_size)
     def _find_tile_rect(self, tile_value, tile_size):
         for row in range(self.rows):
             for col in range(self.cols):
@@ -71,9 +76,11 @@ class Game_map_init:
                     return pygame.Rect(x, y, tile_size, tile_size)
         return None
 
+    # Endpoint rect size Initial
     def get_endpoint_rect(self):
         return self._find_tile_rect(2, self.endpoint_size)
 
+    # Startpoint rect size Initial
     def get_startpoint_rect(self):
         return self._find_tile_rect(3, self.startpoint_size)
 
