@@ -43,7 +43,7 @@ font = pygame.font.SysFont(None, 28)
 # Main Loop
 while running:
     # Change this tick will change game speed
-    dt = clock.tick(60)
+    dt = clock.tick(15)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

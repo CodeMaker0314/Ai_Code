@@ -75,9 +75,9 @@ class Player:
         tile = game_map.get_tile_value_at(self.rect.center)
         if tile is None:
             return None
-        self.score += 1
+        self.score -= 1
         if tile == 1:
-            self.score -= 50
+            self.score -= 25
             steps = self.steps
             steps_x = self.steps_x
             steps_y = self.steps_y

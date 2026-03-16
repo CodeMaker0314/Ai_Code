@@ -1,13 +1,13 @@
 import pygame
 import random
 
-
 class AiPlayer:
+
     actions = [
-        (0, -1),   # up
-        (1, 0),    # right
-        (0, 1),    # down
-        (-1, 0)    # left
+        (0, -1),
+        (1, 0),
+        (0, 1),
+        (-1, 0)
     ]
 
     def __init__(self, rows, cols, alpha=0.1, gamma=0.9, epsilon=1.0, epsilon_decay=0.995, epsilon_min=0.05):
@@ -76,8 +76,7 @@ class AiPlayer:
     def update(self, state, action, reward, next_state, done):
         current_q = self.get_q_values(state)[action]
 
-        if done:
-            target_q = reward
+        if done: target_q = reward
         else:
             next_max_q = max(self.get_q_values(next_state))
             target_q = reward + self.gamma * next_max_q
@@ -94,12 +93,12 @@ class AiPlayer:
             return -100, True, "out"
 
         if tile == 1:
-            return -49, True, "hole"
+            return -25, True, "hole"
 
         if tile == 2:
-            return 51, True, "goal"
+            return 50, True, "goal"
 
-        return 1, False, "move"
+        return -1, False, "move"
 
     def apply_environment_result(self, game_map, player, start_center):
         result = player.update_tile_score(game_map, start_center)
