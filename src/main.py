@@ -1,3 +1,4 @@
+import os
 import pygame
 from Initial_map import *
 from player import Player
@@ -32,7 +33,7 @@ agent = AiPlayer(
     gamma = 0.9,
     epsilon = 1.0,
     epsilon_decay = 0.995,
-    epsilon_min = 0.05
+    epsilon_min=0.05
 )
 
 ai_training = True
@@ -40,26 +41,27 @@ ai_player_mode = False
 episode_count = 0
 font = pygame.font.SysFont(None, 28)
 
+log_file = os.path.join(os.path.dirname(__file__), "result.txt")
+goal_log_file = os.path.join(os.path.dirname(__file__), "goal_result.txt")
+
 # Main Loop
 while running:
-    # Change this tick will change game speed
-    dt = clock.tick(15)
+    clock.tick(15)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
-        # Move command update, count steps and score point
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_a:
                 ai_training = not ai_training
                 ai_player_mode = False
-                print("AI Training Mode: ", ai_training)
+                print("AI Training Mode:", ai_training)
 
             elif event.key == pygame.K_p:
                 ai_player_mode = not ai_player_mode
                 ai_training = False
-                print("AI Player Mode: ", ai_player_mode)
+                print("AI Player Mode:", ai_player_mode)
 
             elif event.key == pygame.K_r:
                 player.reset_to_center(start_center)
@@ -71,27 +73,59 @@ while running:
                     result = player.update_tile_score(game_map, start_center)
                     if result is not None:
                         steps, score, steps_x, steps_y = result
-                        print(f"Steps: {steps}, Score: {score}")
+                        print(f"Move: steps={steps}, total_score={score}")
 
                     result = player.check_endpoint_and_reset(game_map.get_endpoint_rect(), start_center)
                     if result is not None:
                         steps, score, steps_x, steps_y = result
-                        print(f"Steps: {steps}, Score: {score}")
+                        print(f"Goal Reached: total_score={score}")
 
     if ai_training:
         info = agent.train_step(player, game_map, screen.get_rect(), start_center)
         if info["done"]:
             episode_count += 1
-            print(
-                f"[Train] Episode: {episode_count}, "
-                f"Event: {info['event']}, Reward: {info['reward']}, "
-                f"Epsilon: {agent.epsilon:.4f}"
+            episode_result = info.get("episode_result")
+
+            if episode_result is not None:
+                event_name, steps, score, steps_x, steps_y = episode_result
+            else:
+                event_name = info.get("event", "unknown")
+                score = player.score
+
+            log_line = (
+                f"Episode: {episode_count}, "
+                f"Event: {event_name}, "
+                f"Total Score: {score}, "
+                f"Epsilon: {agent.epsilon:.4f}\n"
             )
+
+            print(log_line.strip())
+            with open(log_file, "a", encoding="utf-8") as f:
+                f.write(log_line)
+                f.flush()
+
+            if event_name == "goal":
+                goal_log_line = (
+                    f"Episode: {episode_count}, "
+                    f"Steps: {steps}, "
+                    f"Steps_X: {steps_x}, "
+                    f"Steps_Y: {steps_y}, "
+                    f"Total Score: {score}, "
+                    f"Epsilon: {agent.epsilon:.4f}\n"
+                )
+                with open(goal_log_file, "a", encoding="utf-8") as f:
+                    f.write(goal_log_line)
+                    f.flush()
 
     elif ai_player_mode:
         info = agent.play_best_step(player, game_map, screen.get_rect(), start_center)
         if info["done"]:
-            print(f"[Play] Event: {info['event']}, Reward: {info['reward']}")
+            episode_result = info.get("episode_result")
+            if episode_result is not None:
+                _, steps, score, steps_x, steps_y = episode_result
+                print(f"[Play] Total Score: {score}")
+            else:
+                print(f"[Play] Total Score: {player.score}")
 
     screen.fill(WHITE)
 
@@ -108,11 +142,13 @@ while running:
     elif ai_player_mode:
         mode_text = "AI Play"
 
-    info_surface = font.render(f"Mode: {mode_text} | Episode: {episode_count} | Epsilon: {agent.epsilon:.3f}",
-                               True, BLACK)
+    info_surface = font.render(
+        f"Mode: {mode_text} | Episode: {episode_count} | Epsilon: {agent.epsilon:.3f}",
+        True,
+        BLACK
+    )
 
     screen.blit(info_surface, (10, 10))
-
     pygame.display.flip()
 
 pygame.quit()
