@@ -32,6 +32,12 @@ class QLearning:
             self.q_table[state] = [0.0 for _ in range(len(self.actions))]
         return self.q_table[state]
 
+    def get_valid_actions(self, state):
+        return [
+            action_index for action_index in range(len(self.actions))
+            if self.is_valid_state(state, action_index)
+        ]
+
     def choose_action(self, state):
         q_values = self.get_q_values(state)
 
@@ -57,10 +63,7 @@ class QLearning:
         return 0 <= next_row < self.rows and 0 <= next_col < self.cols
 
     def choose_action_with_bounds(self, state):
-        valid_actions = [
-            action_index for action_index in range(len(self.actions))
-            if self.is_valid_state(state, action_index)
-        ]
+        valid_actions = self.get_valid_actions(state)
 
         if not valid_actions:
             return 0
@@ -76,9 +79,12 @@ class QLearning:
     def update(self, state, action, reward, next_state, done):
         current_q = self.get_q_values(state)[action]
 
-        if done: target_q = reward
+        if done:
+            target_q = reward
         else:
-            next_max_q = max(self.get_q_values(next_state))
+            valid_actions = self.get_valid_actions(next_state)
+            next_q_values = self.get_q_values(next_state)
+            next_max_q = max(next_q_values[action_index] for action_index in valid_actions) if valid_actions else 0.0
             target_q = reward + self.gamma * next_max_q
 
         self.q_table[state][action] = current_q + self.alpha * (target_q - current_q)
@@ -157,9 +163,13 @@ class QLearning:
         }
 
     def get_best_action(self, state):
+        valid_actions = self.get_valid_actions(state)
+        if not valid_actions:
+            return 0
+
         q_values = self.get_q_values(state)
-        max_q = max(q_values)
-        best_actions = [i for i, q in enumerate(q_values) if q == max_q]
+        max_q = max(q_values[action] for action in valid_actions)
+        best_actions = [action for action in valid_actions if q_values[action] == max_q]
         return random.choice(best_actions)
 
     def play_best_step(self, player, game_map, bounds_rect, start_center):

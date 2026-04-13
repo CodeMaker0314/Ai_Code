@@ -33,6 +33,12 @@ class SARSA:
             self.q_table[state] = [0.0 for _ in range(len(self.actions))]
         return self.q_table[state]
 
+    def get_valid_actions(self, state):
+        return [
+            action_index for action_index in range(len(self.actions))
+            if self.is_valid_state(state, action_index)
+        ]
+
     def action_to_move(self, action_index):
         return self.actions[action_index]
 
@@ -48,10 +54,7 @@ class SARSA:
         return 0 <= next_row < self.rows and 0 <= next_col < self.cols
 
     def choose_action_with_bounds(self, state):
-        valid_actions = [
-            action_index for action_index in range(len(self.actions))
-            if self.is_valid_state(state, action_index)
-        ]
+        valid_actions = self.get_valid_actions(state)
 
         if not valid_actions:
             return 0
@@ -153,9 +156,13 @@ class SARSA:
         }
 
     def get_best_action(self, state):
+        valid_actions = self.get_valid_actions(state)
+        if not valid_actions:
+            return 0
+
         q_values = self.get_q_values(state)
-        max_q = max(q_values)
-        best_actions = [i for i, q in enumerate(q_values) if q == max_q]
+        max_q = max(q_values[action] for action in valid_actions)
+        best_actions = [action for action in valid_actions if q_values[action] == max_q]
         return random.choice(best_actions)
 
     def play_best_step(self, player, game_map, bounds_rect, start_center):
