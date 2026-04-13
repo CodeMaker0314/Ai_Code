@@ -2,7 +2,8 @@ import os
 import pygame
 from Initial_map import *
 from player import Player
-from ai_player import *
+from Q_Learning import QLearning
+from SARSA import SARSA
 
 pygame.init()
 
@@ -20,21 +21,29 @@ BLUE = (0, 0, 255)
 clock = pygame.time.Clock()
 running = True
 
+DEFAULT_ALGORITHM = "q_learning"
+
+
+def create_agent(algorithm_name, game_map):
+    agent_class = QLearning if algorithm_name == "q_learning" else SARSA
+    return agent_class(
+        rows=game_map.rows,
+        cols=game_map.cols,
+        alpha=0.1,
+        gamma=0.9,
+        epsilon=1.0,
+        epsilon_decay=0.995,
+        epsilon_min=0.05
+    )
+
 # Create Map Item (Include hole, grid, space, startpoint, endpoint, player_initial update)
 game_map = Game_map_init(hole_size=60, endpoint_size=60, startpoint_size=60)
 start_rect = game_map.get_startpoint_rect()
 start_center = start_rect.center if start_rect else (0, 0)
 player = Player(start_center[0], start_center[1], grid_size=game_map.hole_size)
 
-agent = AiPlayer(
-    rows = game_map.rows,
-    cols = game_map.cols,
-    alpha = 0.1,
-    gamma = 0.9,
-    epsilon = 1.0,
-    epsilon_decay = 0.995,
-    epsilon_min=0.05
-)
+algorithm_name = DEFAULT_ALGORITHM
+agent = create_agent(algorithm_name, game_map)
 
 ai_training = True
 ai_player_mode = False
@@ -46,7 +55,7 @@ goal_log_file = os.path.join(os.path.dirname(__file__), "goal_result.txt")
 
 # Main Loop
 while running:
-    clock.tick(15)
+    clock.tick(60)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -66,6 +75,20 @@ while running:
             elif event.key == pygame.K_r:
                 player.reset_to_center(start_center)
                 print("Player Reset")
+
+            elif event.key == pygame.K_q:
+                algorithm_name = "q_learning"
+                agent = create_agent(algorithm_name, game_map)
+                player.reset_to_center(start_center)
+                episode_count = 0
+                print("Algorithm:", algorithm_name)
+
+            elif event.key == pygame.K_s:
+                algorithm_name = "sarsa"
+                agent = create_agent(algorithm_name, game_map)
+                player.reset_to_center(start_center)
+                episode_count = 0
+                print("Algorithm:", algorithm_name)
 
             elif not ai_player_mode and not ai_training:
                 moved = player.handle_key(event.key, screen.get_rect())
@@ -142,8 +165,9 @@ while running:
     elif ai_player_mode:
         mode_text = "AI Play"
 
+    algorithm_label = "Q-Learning" if algorithm_name == "q_learning" else "SARSA"
     info_surface = font.render(
-        f"Mode: {mode_text} | Episode: {episode_count} | Epsilon: {agent.epsilon:.3f}",
+        f"Algo: {algorithm_label} | Mode: {mode_text} | Episode: {episode_count} | Epsilon: {agent.epsilon:.3f}",
         True,
         BLACK
     )

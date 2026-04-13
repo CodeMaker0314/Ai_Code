@@ -1,7 +1,7 @@
 import pygame
 import random
 
-class AiPlayer:
+class QLearning:
 
     actions = [
         (0, -1),
