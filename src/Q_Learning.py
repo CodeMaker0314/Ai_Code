@@ -96,15 +96,15 @@ class QLearning:
         tile = game_map.get_tile_value_at(player.rect.center)
 
         if tile is None:
-            return -100, True, "out"
+            return -200, True, "out"
 
         if tile == 1:
-            return -25, True, "hole"
+            return -60, True, "hole"
 
         if tile == 2:
-            return 50, True, "goal"
+            return 120, True, "goal"
 
-        return -1, False, "move"
+        return -2, False, "move"
 
     def apply_environment_result(self, game_map, player, start_center):
         result = player.update_tile_score(game_map, start_center)
@@ -130,7 +130,7 @@ class QLearning:
         moved = player.step(dx, dy, bounds_rect)
 
         if not moved:
-            reward = -5
+            reward = -10
             next_state = state
             done = False
             self.update(state, action, reward, next_state, done)
@@ -182,7 +182,7 @@ class QLearning:
             return {
                 "state": state,
                 "action": action,
-                "reward": -5,
+                "reward": -10,
                 "done": False,
                 "event": "blocked",
             }

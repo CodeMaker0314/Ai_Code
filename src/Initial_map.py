@@ -1,4 +1,6 @@
 import pygame
+import random
+
 
 class Game_map_init:
     def __init__(self, hole_size=60, endpoint_size=60, startpoint_size=60):
@@ -8,23 +10,57 @@ class Game_map_init:
         self.rows = 8
         self.cols = 8
 
-        # startpoint = 3, endpoint = 2, hole = 1, space = 0
-        self.map_data = [
-            [3, 0, 0, 0, 0, 1, 0, 0],
-            [0, 1, 0, 0, 1, 0, 0, 0],
-            [0, 0, 0, 1, 0, 0, 1, 0],
-            [0, 0, 1, 0, 0, 0, 0, 0],
-            [0, 0, 0, 0, 1, 0, 0, 0],
-            [0, 1, 0, 0, 0, 0, 0, 0],
-            [0, 0, 0, 0, 0, 1, 0, 0],
-            [0, 0, 0, 1, 0, 0, 0, 2],
-        ]
+        self.start_position = (0, 0)
+        self.goal_position = (self.rows - 1, self.cols - 1)
+        self.map_data = self.generate_random_map()
 
         # Color Initial
         self.black = (0, 0, 0)
         self.gray = (200, 200, 200)
         self.green = (0, 255, 0)
         self.blue = (0, 0, 255)
+
+    def generate_safe_path(self):
+        row, col = self.start_position
+        goal_row, goal_col = self.goal_position
+        path = [(row, col)]
+
+        while (row, col) != (goal_row, goal_col):
+            candidate_moves = []
+
+            if row < goal_row:
+                candidate_moves.append((row + 1, col))
+            if col < goal_col:
+                candidate_moves.append((row, col + 1))
+
+            row, col = random.choice(candidate_moves)
+            path.append((row, col))
+
+        return set(path)
+
+    def generate_random_map(self, hole_count=None):
+        if hole_count is None:
+            hole_count = random.randint(5, 10)
+
+        self.map_data = [[0 for _ in range(self.cols)] for _ in range(self.rows)]
+        safe_path = self.generate_safe_path()
+
+        start_row, start_col = self.start_position
+        goal_row, goal_col = self.goal_position
+        self.map_data[start_row][start_col] = 3
+        self.map_data[goal_row][goal_col] = 2
+
+        available_positions = [
+            (row, col)
+            for row in range(self.rows)
+            for col in range(self.cols)
+            if (row, col) not in safe_path
+        ]
+
+        for row, col in random.sample(available_positions, hole_count):
+            self.map_data[row][col] = 1
+
+        return self.map_data
 
     # Draw grid
     def draw_grid(self, screen):
