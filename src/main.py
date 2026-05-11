@@ -69,16 +69,17 @@ os.makedirs(result_dir, exist_ok=True)
 session_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
 session_date_short = datetime.now().strftime("%y%m%d")
 current_episode_path = []
-epsilon_min_path_saved = False
+post_target_goal_results = []
+POST_TARGET_GOAL_RUNS = 10
 
 
 def reset_training_state(player, start_center):
     player.reset_to_center(start_center)
-    return [], False
+    return []
 
 
 def advance_training_round(player):
-    global training_round_index, training_cycle_count, algorithm_name, agent, episode_count, game_map, start_center
+    global training_round_index, training_cycle_count, algorithm_name, agent, episode_count, game_map, start_center, post_target_goal_results
 
     training_round_index = (training_round_index + 1) % len(TRAINING_SEQUENCE)
     if training_round_index == 0:
@@ -89,6 +90,7 @@ def advance_training_round(player):
     algorithm_name = TRAINING_SEQUENCE[training_round_index]
     agent = create_agent(algorithm_name, game_map)
     episode_count = 0
+    post_target_goal_results = []
     player.reset_to_center(start_center)
     print(f"Training Round {training_cycle_count}: {algorithm_name}")
 
@@ -135,6 +137,47 @@ def format_path_map(game_map, path_states):
     return "\n".join(lines)
 
 
+def is_better_goal_result(candidate, current_best):
+    if current_best is None:
+        return True
+
+    if candidate["score"] != current_best["score"]:
+        return candidate["score"] > current_best["score"]
+
+    if candidate["steps"] != current_best["steps"]:
+        return candidate["steps"] < current_best["steps"]
+
+    return candidate["path_length"] < current_best["path_length"]
+
+
+def write_best_goal_result(best_result):
+    final_lines = [
+        f"Round: {best_result['training_cycle_count']}",
+        f"Phase: {best_result['training_round_index'] + 1}/{len(TRAINING_SEQUENCE)}",
+        f"Algorithm: {best_result['algorithm_name']}",
+        f"Episode: {best_result['episode_count']}",
+        f"Global Episode: {best_result['global_episode_count']}",
+        f"Event: {best_result['event_name']}",
+        f"Total Score: {best_result['score']}",
+        f"Epsilon: {best_result['epsilon']:.4f}",
+        f"Steps: {best_result['steps']}",
+        f"Steps_X: {best_result['steps_x']}",
+        f"Steps_Y: {best_result['steps_y']}",
+        f"Selected From Goal Runs: {POST_TARGET_GOAL_RUNS}",
+    ]
+
+    path_map = format_path_map(best_result["game_map"], best_result["path"])
+    final_text = (
+        "\n".join(final_lines)
+        + f"\nPath Length: {best_result['path_length']}\n"
+        + "Legend: S=Start, G=Goal, H=Hole, *=Path, .=Empty\n\n"
+        + f"{path_map}\n\n"
+    )
+
+    with open(get_final_log_file_path(), "w", encoding="utf-8") as f:
+        f.write(final_text)
+
+
 # Main Loop
 while running:
     clock.tick(60)
@@ -169,7 +212,8 @@ while running:
                 start_center = get_start_center(game_map)
                 agent = create_agent(algorithm_name, game_map)
                 episode_count = 0
-                current_episode_path, epsilon_min_path_saved = reset_training_state(player, start_center)
+                current_episode_path = reset_training_state(player, start_center)
+                post_target_goal_results = []
                 print("Algorithm:", algorithm_name)
 
             elif event.key == pygame.K_s:
@@ -180,7 +224,8 @@ while running:
                 start_center = get_start_center(game_map)
                 agent = create_agent(algorithm_name, game_map)
                 episode_count = 0
-                current_episode_path, epsilon_min_path_saved = reset_training_state(player, start_center)
+                current_episode_path = reset_training_state(player, start_center)
+                post_target_goal_results = []
                 print("Algorithm:", algorithm_name)
 
             elif not ai_player_mode and not ai_training:
@@ -236,47 +281,39 @@ while running:
                 f.write(log_line)
 
             if (
-                not epsilon_min_path_saved
-                and agent.epsilon <= agent.epsilon_min
+                agent.epsilon <= agent.epsilon_min
+                and event_name == "goal"
+                and episode_result is not None
                 and current_episode_path
             ):
-                final_lines = [
-                    f"Round: {training_cycle_count}",
-                    f"Phase: {training_round_index + 1}/{len(TRAINING_SEQUENCE)}",
-                    f"Algorithm: {algorithm_name}",
-                    f"Episode: {episode_count}",
-                    f"Global Episode: {global_episode_count}",
-                    f"Event: {event_name}",
-                    f"Total Score: {score}",
-                    f"Epsilon: {agent.epsilon:.4f}",
-                ]
-
-                if episode_result is not None:
-                    final_lines.extend([
-                        f"Steps: {steps}",
-                        f"Steps_X: {steps_x}",
-                        f"Steps_Y: {steps_y}",
-                    ])
-
-                path_map = format_path_map(game_map, current_episode_path)
-                final_text = (
-                    "\n".join(final_lines)
-                    + f"\nPath Length: {len(current_episode_path)}\n"
-                    + "Legend: S=Start, G=Goal, H=Hole, *=Path, .=Empty\n\n"
-                    + f"{path_map}\n\n"
-                )
-
-                with open(get_final_log_file_path(), "w", encoding="utf-8") as f:
-                    f.write(final_text)
-
-                epsilon_min_path_saved = True
+                post_target_goal_results.append({
+                    "training_cycle_count": training_cycle_count,
+                    "training_round_index": training_round_index,
+                    "algorithm_name": algorithm_name,
+                    "episode_count": episode_count,
+                    "global_episode_count": global_episode_count,
+                    "event_name": event_name,
+                    "score": score,
+                    "epsilon": agent.epsilon,
+                    "steps": steps,
+                    "steps_x": steps_x,
+                    "steps_y": steps_y,
+                    "path": list(current_episode_path),
+                    "path_length": len(current_episode_path),
+                    "game_map": game_map,
+                })
 
             current_episode_path = []
 
-            if agent.epsilon <= agent.epsilon_min:
+            if len(post_target_goal_results) >= POST_TARGET_GOAL_RUNS:
+                best_goal_result = None
+                for goal_result in post_target_goal_results:
+                    if is_better_goal_result(goal_result, best_goal_result):
+                        best_goal_result = goal_result
+
+                write_best_goal_result(best_goal_result)
                 advance_training_round(player)
                 current_episode_path = []
-                epsilon_min_path_saved = False
 
     elif ai_player_mode:
         info = agent.play_best_step(player, game_map, screen.get_rect(), start_center)
