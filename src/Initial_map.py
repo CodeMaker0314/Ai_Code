@@ -3,6 +3,11 @@ import random
 
 
 class Game_map_init:
+    MIN_MAP_COMPLEXITY = 0.9
+    MAX_MAP_COMPLEXITY = 1.0
+    MIN_HOLE_COUNT = 11
+    MAX_HOLE_COUNT = 20
+
     def __init__(self, hole_size=60, endpoint_size=60, startpoint_size=60):
         self.hole_size = hole_size
         self.endpoint_size = endpoint_size
@@ -12,6 +17,7 @@ class Game_map_init:
 
         self.start_position = (0, 0)
         self.goal_position = (self.rows - 1, self.cols - 1)
+        self.map_complexity = 0
         self.map_data = self.generate_random_map()
 
         # Color Initial
@@ -38,17 +44,41 @@ class Game_map_init:
 
         return set(path)
 
-    def generate_random_map(self, hole_count=None):
-        if hole_count is None:
-            hole_count = random.randint(5, 10)
+    def calculate_map_complexity(self, map_data):
+        hole_positions = [
+            (row, col)
+            for row in range(self.rows)
+            for col in range(self.cols)
+            if map_data[row][col] == 1
+        ]
 
-        self.map_data = [[0 for _ in range(self.cols)] for _ in range(self.rows)]
+        total_holes = len(hole_positions)
+        if total_holes == 0:
+            return 0
+
+        hole_set = set(hole_positions)
+        surrounding_hole_count = 0
+
+        for row, col in hole_positions:
+            for row_offset in (-1, 0, 1):
+                for col_offset in (-1, 0, 1):
+                    if row_offset == 0 and col_offset == 0:
+                        continue
+
+                    neighbor = (row + row_offset, col + col_offset)
+                    if neighbor in hole_set:
+                        surrounding_hole_count += 1
+
+        return surrounding_hole_count / total_holes
+
+    def _build_random_map(self, hole_count):
+        map_data = [[0 for _ in range(self.cols)] for _ in range(self.rows)]
         safe_path = self.generate_safe_path()
 
         start_row, start_col = self.start_position
         goal_row, goal_col = self.goal_position
-        self.map_data[start_row][start_col] = 3
-        self.map_data[goal_row][goal_col] = 2
+        map_data[start_row][start_col] = 3
+        map_data[goal_row][goal_col] = 2
 
         available_positions = [
             (row, col)
@@ -58,7 +88,22 @@ class Game_map_init:
         ]
 
         for row, col in random.sample(available_positions, hole_count):
-            self.map_data[row][col] = 1
+            map_data[row][col] = 1
+
+        return map_data
+
+    def generate_random_map(self, hole_count=None):
+        use_random_hole_count = hole_count is None
+
+        while True:
+            if use_random_hole_count:
+                hole_count = random.randint(self.MIN_HOLE_COUNT, self.MAX_HOLE_COUNT)
+
+            self.map_data = self._build_random_map(hole_count)
+            self.map_complexity = self.calculate_map_complexity(self.map_data)
+
+            if self.MIN_MAP_COMPLEXITY < self.map_complexity < self.MAX_MAP_COMPLEXITY:
+                break
 
         return self.map_data
 

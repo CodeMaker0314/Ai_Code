@@ -40,7 +40,9 @@ def create_agent(algorithm_name, game_map):
 
 
 def create_game_map():
-    return Game_map_init(hole_size=60, endpoint_size=60, startpoint_size=60)
+    new_game_map = Game_map_init(hole_size=60, endpoint_size=60, startpoint_size=60)
+    print(f"Map Complexity: {new_game_map.map_complexity:.4f}")
+    return new_game_map
 
 
 def get_start_center(game_map):
