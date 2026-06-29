@@ -1,0 +1,607 @@
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 1, Global Episode: 7302, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.9950
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 2, Global Episode: 7303, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.9900
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 3, Global Episode: 7304, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.9851
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 4, Global Episode: 7305, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.9801
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 5, Global Episode: 7306, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.9752
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 6, Global Episode: 7307, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.9704
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 7, Global Episode: 7308, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: 0, Epsilon: 0.9655
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 8, Global Episode: 7309, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.9607
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 9, Global Episode: 7310, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.9559
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 10, Global Episode: 7311, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.9511
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 11, Global Episode: 7312, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.9464
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 12, Global Episode: 7313, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: -3, Epsilon: 0.9416
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 13, Global Episode: 7314, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.9369
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 14, Global Episode: 7315, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.9322
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 15, Global Episode: 7316, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.9276
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 16, Global Episode: 7317, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.9229
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 17, Global Episode: 7318, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.9183
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 18, Global Episode: 7319, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.9137
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 19, Global Episode: 7320, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.9092
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 20, Global Episode: 7321, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.9046
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 21, Global Episode: 7322, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.9001
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 22, Global Episode: 7323, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.8956
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 23, Global Episode: 7324, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.8911
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 24, Global Episode: 7325, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.8867
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 25, Global Episode: 7326, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.8822
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 26, Global Episode: 7327, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.8778
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 27, Global Episode: 7328, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.8734
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 28, Global Episode: 7329, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.8691
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 29, Global Episode: 7330, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.8647
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 30, Global Episode: 7331, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.8604
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 31, Global Episode: 7332, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.8561
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 32, Global Episode: 7333, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.8518
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 33, Global Episode: 7334, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.8475
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 34, Global Episode: 7335, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.8433
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 35, Global Episode: 7336, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.8391
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 36, Global Episode: 7337, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.8349
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 37, Global Episode: 7338, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.8307
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 38, Global Episode: 7339, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.8266
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 39, Global Episode: 7340, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.8224
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 40, Global Episode: 7341, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.8183
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 41, Global Episode: 7342, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.8142
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 42, Global Episode: 7343, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.8102
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 43, Global Episode: 7344, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.8061
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 44, Global Episode: 7345, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.8021
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 45, Global Episode: 7346, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.7981
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 46, Global Episode: 7347, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.7941
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 47, Global Episode: 7348, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.7901
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 48, Global Episode: 7349, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.7862
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 49, Global Episode: 7350, Event: hole, Total Score: -95, Turns: 0, Turn Penalty: 0, Epsilon: 0.7822
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 50, Global Episode: 7351, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.7783
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 51, Global Episode: 7352, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.7744
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 52, Global Episode: 7353, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: 0, Epsilon: 0.7705
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 53, Global Episode: 7354, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: 0, Epsilon: 0.7667
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 54, Global Episode: 7355, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.7629
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 55, Global Episode: 7356, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.7590
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 56, Global Episode: 7357, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.7553
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 57, Global Episode: 7358, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.7515
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 58, Global Episode: 7359, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: 0, Epsilon: 0.7477
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 59, Global Episode: 7360, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.7440
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 60, Global Episode: 7361, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.7403
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 61, Global Episode: 7362, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.7366
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 62, Global Episode: 7363, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.7329
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 63, Global Episode: 7364, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.7292
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 64, Global Episode: 7365, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.7256
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 65, Global Episode: 7366, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.7219
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 66, Global Episode: 7367, Event: hole, Total Score: -69, Turns: 0, Turn Penalty: -3, Epsilon: 0.7183
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 67, Global Episode: 7368, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.7147
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 68, Global Episode: 7369, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.7112
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 69, Global Episode: 7370, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.7076
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 70, Global Episode: 7371, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.7041
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 71, Global Episode: 7372, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.7005
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 72, Global Episode: 7373, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.6970
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 73, Global Episode: 7374, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.6936
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 74, Global Episode: 7375, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.6901
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 75, Global Episode: 7376, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.6866
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 76, Global Episode: 7377, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: 0, Epsilon: 0.6832
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 77, Global Episode: 7378, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.6798
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 78, Global Episode: 7379, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.6764
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 79, Global Episode: 7380, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.6730
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 80, Global Episode: 7381, Event: hole, Total Score: -69, Turns: 0, Turn Penalty: -3, Epsilon: 0.6696
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 81, Global Episode: 7382, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.6663
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 82, Global Episode: 7383, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.6630
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 83, Global Episode: 7384, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: 0, Epsilon: 0.6597
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 84, Global Episode: 7385, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.6564
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 85, Global Episode: 7386, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.6531
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 86, Global Episode: 7387, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.6498
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 87, Global Episode: 7388, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.6466
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 88, Global Episode: 7389, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.6433
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 89, Global Episode: 7390, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.6401
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 90, Global Episode: 7391, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.6369
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 91, Global Episode: 7392, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.6337
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 92, Global Episode: 7393, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.6306
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 93, Global Episode: 7394, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.6274
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 94, Global Episode: 7395, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.6243
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 95, Global Episode: 7396, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.6211
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 96, Global Episode: 7397, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.6180
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 97, Global Episode: 7398, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: -3, Epsilon: 0.6149
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 98, Global Episode: 7399, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.6119
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 99, Global Episode: 7400, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.6088
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 100, Global Episode: 7401, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: 0, Epsilon: 0.6058
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 101, Global Episode: 7402, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.6027
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 102, Global Episode: 7403, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.5997
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 103, Global Episode: 7404, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: -3, Epsilon: 0.5967
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 104, Global Episode: 7405, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.5937
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 105, Global Episode: 7406, Event: hole, Total Score: -79, Turns: 0, Turn Penalty: -3, Epsilon: 0.5908
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 106, Global Episode: 7407, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.5878
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 107, Global Episode: 7408, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.5849
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 108, Global Episode: 7409, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: 0, Epsilon: 0.5820
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 109, Global Episode: 7410, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.5790
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 110, Global Episode: 7411, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.5762
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 111, Global Episode: 7412, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.5733
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 112, Global Episode: 7413, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.5704
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 113, Global Episode: 7414, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.5676
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 114, Global Episode: 7415, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.5647
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 115, Global Episode: 7416, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: 0, Epsilon: 0.5619
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 116, Global Episode: 7417, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.5591
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 117, Global Episode: 7418, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.5563
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 118, Global Episode: 7419, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.5535
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 119, Global Episode: 7420, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.5507
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 120, Global Episode: 7421, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.5480
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 121, Global Episode: 7422, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.5452
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 122, Global Episode: 7423, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.5425
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 123, Global Episode: 7424, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: -3, Epsilon: 0.5398
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 124, Global Episode: 7425, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.5371
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 125, Global Episode: 7426, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.5344
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 126, Global Episode: 7427, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: -3, Epsilon: 0.5318
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 127, Global Episode: 7428, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.5291
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 128, Global Episode: 7429, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: 0, Epsilon: 0.5264
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 129, Global Episode: 7430, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.5238
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 130, Global Episode: 7431, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.5212
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 131, Global Episode: 7432, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.5186
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 132, Global Episode: 7433, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.5160
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 133, Global Episode: 7434, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.5134
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 134, Global Episode: 7435, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.5108
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 135, Global Episode: 7436, Event: hole, Total Score: -65, Turns: 0, Turn Penalty: -3, Epsilon: 0.5083
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 136, Global Episode: 7437, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.5058
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 137, Global Episode: 7438, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.5032
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 138, Global Episode: 7439, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.5007
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 139, Global Episode: 7440, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: 0, Epsilon: 0.4982
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 140, Global Episode: 7441, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: 0, Epsilon: 0.4957
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 141, Global Episode: 7442, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: -3, Epsilon: 0.4932
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 142, Global Episode: 7443, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.4908
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 143, Global Episode: 7444, Event: hole, Total Score: -73, Turns: 0, Turn Penalty: -3, Epsilon: 0.4883
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 144, Global Episode: 7445, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.4859
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 145, Global Episode: 7446, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.4834
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 146, Global Episode: 7447, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: -3, Epsilon: 0.4810
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 147, Global Episode: 7448, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.4786
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 148, Global Episode: 7449, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.4762
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 149, Global Episode: 7450, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: -3, Epsilon: 0.4738
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 150, Global Episode: 7451, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.4715
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 151, Global Episode: 7452, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.4691
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 152, Global Episode: 7453, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.4668
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 153, Global Episode: 7454, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.4644
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 154, Global Episode: 7455, Event: hole, Total Score: -66, Turns: 0, Turn Penalty: 0, Epsilon: 0.4621
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 155, Global Episode: 7456, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.4598
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 156, Global Episode: 7457, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.4575
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 157, Global Episode: 7458, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.4552
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 158, Global Episode: 7459, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.4529
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 159, Global Episode: 7460, Event: hole, Total Score: -73, Turns: 0, Turn Penalty: -3, Epsilon: 0.4507
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 160, Global Episode: 7461, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.4484
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 161, Global Episode: 7462, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.4462
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 162, Global Episode: 7463, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.4440
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 163, Global Episode: 7464, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.4417
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 164, Global Episode: 7465, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.4395
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 165, Global Episode: 7466, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: 0, Epsilon: 0.4373
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 166, Global Episode: 7467, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: 0, Epsilon: 0.4351
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 167, Global Episode: 7468, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.4330
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 168, Global Episode: 7469, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.4308
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 169, Global Episode: 7470, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.4286
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 170, Global Episode: 7471, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.4265
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 171, Global Episode: 7472, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.4244
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 172, Global Episode: 7473, Event: hole, Total Score: -75, Turns: 0, Turn Penalty: -3, Epsilon: 0.4223
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 173, Global Episode: 7474, Event: hole, Total Score: -103, Turns: 0, Turn Penalty: 0, Epsilon: 0.4201
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 174, Global Episode: 7475, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.4180
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 175, Global Episode: 7476, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.4159
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 176, Global Episode: 7477, Event: hole, Total Score: -71, Turns: 0, Turn Penalty: -3, Epsilon: 0.4139
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 177, Global Episode: 7478, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: 0, Epsilon: 0.4118
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 178, Global Episode: 7479, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.4097
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 179, Global Episode: 7480, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.4077
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 180, Global Episode: 7481, Event: hole, Total Score: -95, Turns: 0, Turn Penalty: -3, Epsilon: 0.4057
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 181, Global Episode: 7482, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.4036
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 182, Global Episode: 7483, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.4016
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 183, Global Episode: 7484, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.3996
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 184, Global Episode: 7485, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.3976
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 185, Global Episode: 7486, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.3956
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 186, Global Episode: 7487, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.3936
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 187, Global Episode: 7488, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.3917
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 188, Global Episode: 7489, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.3897
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 189, Global Episode: 7490, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.3878
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 190, Global Episode: 7491, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.3858
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 191, Global Episode: 7492, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.3839
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 192, Global Episode: 7493, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: 0, Epsilon: 0.3820
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 193, Global Episode: 7494, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.3801
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 194, Global Episode: 7495, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.3782
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 195, Global Episode: 7496, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.3763
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 196, Global Episode: 7497, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.3744
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 197, Global Episode: 7498, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.3725
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 198, Global Episode: 7499, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.3707
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 199, Global Episode: 7500, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: 0, Epsilon: 0.3688
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 200, Global Episode: 7501, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: 0, Epsilon: 0.3670
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 201, Global Episode: 7502, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.3651
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 202, Global Episode: 7503, Event: hole, Total Score: -90, Turns: 0, Turn Penalty: 0, Epsilon: 0.3633
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 203, Global Episode: 7504, Event: hole, Total Score: -66, Turns: 0, Turn Penalty: -3, Epsilon: 0.3615
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 204, Global Episode: 7505, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.3597
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 205, Global Episode: 7506, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.3579
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 206, Global Episode: 7507, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.3561
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 207, Global Episode: 7508, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.3543
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 208, Global Episode: 7509, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.3525
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 209, Global Episode: 7510, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.3508
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 210, Global Episode: 7511, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.3490
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 211, Global Episode: 7512, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.3473
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 212, Global Episode: 7513, Event: hole, Total Score: -101, Turns: 0, Turn Penalty: -3, Epsilon: 0.3455
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 213, Global Episode: 7514, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.3438
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 214, Global Episode: 7515, Event: hole, Total Score: -99, Turns: 0, Turn Penalty: -3, Epsilon: 0.3421
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 215, Global Episode: 7516, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.3404
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 216, Global Episode: 7517, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.3387
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 217, Global Episode: 7518, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.3370
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 218, Global Episode: 7519, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.3353
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 219, Global Episode: 7520, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.3336
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 220, Global Episode: 7521, Event: hole, Total Score: -116, Turns: 0, Turn Penalty: 0, Epsilon: 0.3320
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 221, Global Episode: 7522, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.3303
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 222, Global Episode: 7523, Event: hole, Total Score: -70, Turns: 0, Turn Penalty: 0, Epsilon: 0.3286
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 223, Global Episode: 7524, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: -3, Epsilon: 0.3270
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 224, Global Episode: 7525, Event: hole, Total Score: -71, Turns: 0, Turn Penalty: 0, Epsilon: 0.3254
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 225, Global Episode: 7526, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.3237
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 226, Global Episode: 7527, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.3221
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 227, Global Episode: 7528, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.3205
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 228, Global Episode: 7529, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: 0, Epsilon: 0.3189
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 229, Global Episode: 7530, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.3173
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 230, Global Episode: 7531, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.3157
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 231, Global Episode: 7532, Event: hole, Total Score: -116, Turns: 0, Turn Penalty: -3, Epsilon: 0.3141
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 232, Global Episode: 7533, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.3126
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 233, Global Episode: 7534, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.3110
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 234, Global Episode: 7535, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.3095
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 235, Global Episode: 7536, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.3079
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 236, Global Episode: 7537, Event: hole, Total Score: -135, Turns: 0, Turn Penalty: 0, Epsilon: 0.3064
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 237, Global Episode: 7538, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.3048
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 238, Global Episode: 7539, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.3033
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 239, Global Episode: 7540, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.3018
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 240, Global Episode: 7541, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.3003
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 241, Global Episode: 7542, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.2988
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 242, Global Episode: 7543, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.2973
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 243, Global Episode: 7544, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.2958
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 244, Global Episode: 7545, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.2943
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 245, Global Episode: 7546, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.2929
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 246, Global Episode: 7547, Event: hole, Total Score: -65, Turns: 0, Turn Penalty: 0, Epsilon: 0.2914
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 247, Global Episode: 7548, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.2899
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 248, Global Episode: 7549, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: 0, Epsilon: 0.2885
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 249, Global Episode: 7550, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.2870
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 250, Global Episode: 7551, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.2856
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 251, Global Episode: 7552, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.2842
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 252, Global Episode: 7553, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.2828
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 253, Global Episode: 7554, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: -3, Epsilon: 0.2813
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 254, Global Episode: 7555, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.2799
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 255, Global Episode: 7556, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.2785
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 256, Global Episode: 7557, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.2771
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 257, Global Episode: 7558, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.2758
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 258, Global Episode: 7559, Event: goal, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.2744 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 259, Global Episode: 7560, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.2730
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 260, Global Episode: 7561, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.2716
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 261, Global Episode: 7562, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.2703
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 262, Global Episode: 7563, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.2689
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 263, Global Episode: 7564, Event: hole, Total Score: -68, Turns: 0, Turn Penalty: -3, Epsilon: 0.2676
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 264, Global Episode: 7565, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.2663
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 265, Global Episode: 7566, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.2649
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 266, Global Episode: 7567, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.2636
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 267, Global Episode: 7568, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.2623
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 268, Global Episode: 7569, Event: hole, Total Score: -75, Turns: 0, Turn Penalty: -3, Epsilon: 0.2610
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 269, Global Episode: 7570, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: -3, Epsilon: 0.2597
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 270, Global Episode: 7571, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.2584
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 271, Global Episode: 7572, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: -3, Epsilon: 0.2571
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 272, Global Episode: 7573, Event: hole, Total Score: -65, Turns: 0, Turn Penalty: 0, Epsilon: 0.2558
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 273, Global Episode: 7574, Event: hole, Total Score: -75, Turns: 0, Turn Penalty: -3, Epsilon: 0.2545
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 274, Global Episode: 7575, Event: hole, Total Score: -71, Turns: 0, Turn Penalty: 0, Epsilon: 0.2532
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 275, Global Episode: 7576, Event: hole, Total Score: -78, Turns: 0, Turn Penalty: 0, Epsilon: 0.2520
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 276, Global Episode: 7577, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.2507
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 277, Global Episode: 7578, Event: hole, Total Score: -98, Turns: 0, Turn Penalty: -3, Epsilon: 0.2495
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 278, Global Episode: 7579, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.2482
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 279, Global Episode: 7580, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.2470
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 280, Global Episode: 7581, Event: hole, Total Score: -64, Turns: 0, Turn Penalty: -3, Epsilon: 0.2457
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 281, Global Episode: 7582, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.2445
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 282, Global Episode: 7583, Event: hole, Total Score: -75, Turns: 0, Turn Penalty: -3, Epsilon: 0.2433
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 283, Global Episode: 7584, Event: hole, Total Score: -90, Turns: 0, Turn Penalty: 0, Epsilon: 0.2421
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 284, Global Episode: 7585, Event: hole, Total Score: -106, Turns: 0, Turn Penalty: -3, Epsilon: 0.2409
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 285, Global Episode: 7586, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.2397
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 286, Global Episode: 7587, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.2385
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 287, Global Episode: 7588, Event: goal, Total Score: 6, Turns: 0, Turn Penalty: -3, Epsilon: 0.2373 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 288, Global Episode: 7589, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.2361
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 289, Global Episode: 7590, Event: hole, Total Score: -72, Turns: 0, Turn Penalty: -3, Epsilon: 0.2349
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 290, Global Episode: 7591, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.2337
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 291, Global Episode: 7592, Event: goal, Total Score: -4, Turns: 0, Turn Penalty: 0, Epsilon: 0.2326 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 292, Global Episode: 7593, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.2314
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 293, Global Episode: 7594, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: 0, Epsilon: 0.2302
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 294, Global Episode: 7595, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.2291
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 295, Global Episode: 7596, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.2279
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 296, Global Episode: 7597, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: -3, Epsilon: 0.2268
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 297, Global Episode: 7598, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: 0, Epsilon: 0.2257
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 298, Global Episode: 7599, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: 0, Epsilon: 0.2245 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 299, Global Episode: 7600, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.2234
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 300, Global Episode: 7601, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.2223
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 301, Global Episode: 7602, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.2212
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 302, Global Episode: 7603, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.2201
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 303, Global Episode: 7604, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: -3, Epsilon: 0.2190
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 304, Global Episode: 7605, Event: hole, Total Score: -120, Turns: 0, Turn Penalty: -3, Epsilon: 0.2179
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 305, Global Episode: 7606, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.2168
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 306, Global Episode: 7607, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.2157
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 307, Global Episode: 7608, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.2146
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 308, Global Episode: 7609, Event: hole, Total Score: -81, Turns: 0, Turn Penalty: -3, Epsilon: 0.2136
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 309, Global Episode: 7610, Event: hole, Total Score: -94, Turns: 0, Turn Penalty: -3, Epsilon: 0.2125
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 310, Global Episode: 7611, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.2114
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 311, Global Episode: 7612, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.2104
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 312, Global Episode: 7613, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.2093
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 313, Global Episode: 7614, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: -3, Epsilon: 0.2083
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 314, Global Episode: 7615, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.2072
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 315, Global Episode: 7616, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.2062
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 316, Global Episode: 7617, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.2052
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 317, Global Episode: 7618, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.2041
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 318, Global Episode: 7619, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.2031
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 319, Global Episode: 7620, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.2021
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 320, Global Episode: 7621, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.2011
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 321, Global Episode: 7622, Event: hole, Total Score: -69, Turns: 0, Turn Penalty: -3, Epsilon: 0.2001
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 322, Global Episode: 7623, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.1991
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 323, Global Episode: 7624, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.1981
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 324, Global Episode: 7625, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: 0, Epsilon: 0.1971
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 325, Global Episode: 7626, Event: hole, Total Score: -83, Turns: 0, Turn Penalty: -3, Epsilon: 0.1961
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 326, Global Episode: 7627, Event: hole, Total Score: -83, Turns: 0, Turn Penalty: -3, Epsilon: 0.1951
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 327, Global Episode: 7628, Event: hole, Total Score: -69, Turns: 0, Turn Penalty: -3, Epsilon: 0.1942
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 328, Global Episode: 7629, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: -3, Epsilon: 0.1932
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 329, Global Episode: 7630, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.1922
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 330, Global Episode: 7631, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.1913
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 331, Global Episode: 7632, Event: hole, Total Score: -63, Turns: 0, Turn Penalty: -3, Epsilon: 0.1903
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 332, Global Episode: 7633, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.1893
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 333, Global Episode: 7634, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.1884
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 334, Global Episode: 7635, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.1875
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 335, Global Episode: 7636, Event: hole, Total Score: -165, Turns: 0, Turn Penalty: 0, Epsilon: 0.1865
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 336, Global Episode: 7637, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: 0, Epsilon: 0.1856
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 337, Global Episode: 7638, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.1847
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 338, Global Episode: 7639, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.1837
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 339, Global Episode: 7640, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.1828
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 340, Global Episode: 7641, Event: hole, Total Score: -109, Turns: 0, Turn Penalty: 0, Epsilon: 0.1819
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 341, Global Episode: 7642, Event: hole, Total Score: -65, Turns: 0, Turn Penalty: 0, Epsilon: 0.1810
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 342, Global Episode: 7643, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.1801
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 343, Global Episode: 7644, Event: hole, Total Score: -109, Turns: 0, Turn Penalty: -3, Epsilon: 0.1792
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 344, Global Episode: 7645, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: 0, Epsilon: 0.1783
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 345, Global Episode: 7646, Event: hole, Total Score: -62, Turns: 0, Turn Penalty: -3, Epsilon: 0.1774
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 346, Global Episode: 7647, Event: hole, Total Score: -77, Turns: 0, Turn Penalty: -3, Epsilon: 0.1765
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 347, Global Episode: 7648, Event: hole, Total Score: -109, Turns: 0, Turn Penalty: -3, Epsilon: 0.1756
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 348, Global Episode: 7649, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: 0, Epsilon: 0.1748
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 349, Global Episode: 7650, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.1739
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 350, Global Episode: 7651, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: -3, Epsilon: 0.1730
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 351, Global Episode: 7652, Event: hole, Total Score: -149, Turns: 0, Turn Penalty: -3, Epsilon: 0.1721
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 352, Global Episode: 7653, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.1713
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 353, Global Episode: 7654, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: 0, Epsilon: 0.1704
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 354, Global Episode: 7655, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.1696
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 355, Global Episode: 7656, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.1687
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 356, Global Episode: 7657, Event: goal, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.1679 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 357, Global Episode: 7658, Event: hole, Total Score: -94, Turns: 0, Turn Penalty: 0, Epsilon: 0.1670
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 358, Global Episode: 7659, Event: hole, Total Score: -110, Turns: 0, Turn Penalty: -3, Epsilon: 0.1662
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 359, Global Episode: 7660, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.1654
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 360, Global Episode: 7661, Event: hole, Total Score: -63, Turns: 0, Turn Penalty: 0, Epsilon: 0.1646
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 361, Global Episode: 7662, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.1637
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 362, Global Episode: 7663, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.1629
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 363, Global Episode: 7664, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: 0, Epsilon: 0.1621
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 364, Global Episode: 7665, Event: hole, Total Score: -89, Turns: 0, Turn Penalty: 0, Epsilon: 0.1613
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 365, Global Episode: 7666, Event: hole, Total Score: -89, Turns: 0, Turn Penalty: -3, Epsilon: 0.1605
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 366, Global Episode: 7667, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.1597
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 367, Global Episode: 7668, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: 0, Epsilon: 0.1589
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 368, Global Episode: 7669, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.1581
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 369, Global Episode: 7670, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.1573
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 370, Global Episode: 7671, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.1565
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 371, Global Episode: 7672, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: -3, Epsilon: 0.1557
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 372, Global Episode: 7673, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.1549
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 373, Global Episode: 7674, Event: hole, Total Score: -249, Turns: 0, Turn Penalty: -3, Epsilon: 0.1542
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 374, Global Episode: 7675, Event: hole, Total Score: -86, Turns: 0, Turn Penalty: -3, Epsilon: 0.1534
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 375, Global Episode: 7676, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.1526
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 376, Global Episode: 7677, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.1519
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 377, Global Episode: 7678, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.1511
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 378, Global Episode: 7679, Event: goal, Total Score: 14, Turns: 0, Turn Penalty: 0, Epsilon: 0.1504 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 379, Global Episode: 7680, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1496 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 380, Global Episode: 7681, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: -3, Epsilon: 0.1489
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 381, Global Episode: 7682, Event: hole, Total Score: -84, Turns: 0, Turn Penalty: -3, Epsilon: 0.1481
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 382, Global Episode: 7683, Event: hole, Total Score: -89, Turns: 0, Turn Penalty: -3, Epsilon: 0.1474
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 383, Global Episode: 7684, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.1466
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 384, Global Episode: 7685, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.1459
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 385, Global Episode: 7686, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: 0, Epsilon: 0.1452
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 386, Global Episode: 7687, Event: goal, Total Score: -24, Turns: 0, Turn Penalty: 0, Epsilon: 0.1444 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 387, Global Episode: 7688, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.1437
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 388, Global Episode: 7689, Event: hole, Total Score: -102, Turns: 0, Turn Penalty: -3, Epsilon: 0.1430
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 389, Global Episode: 7690, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.1423
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 390, Global Episode: 7691, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.1416
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 391, Global Episode: 7692, Event: goal, Total Score: 10, Turns: 0, Turn Penalty: 0, Epsilon: 0.1409 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 392, Global Episode: 7693, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.1402
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 393, Global Episode: 7694, Event: hole, Total Score: -96, Turns: 0, Turn Penalty: -3, Epsilon: 0.1395
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 394, Global Episode: 7695, Event: goal, Total Score: -2, Turns: 0, Turn Penalty: 0, Epsilon: 0.1388 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 395, Global Episode: 7696, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: -3, Epsilon: 0.1381
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 396, Global Episode: 7697, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: -3, Epsilon: 0.1374
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 397, Global Episode: 7698, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: 0, Epsilon: 0.1367
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 398, Global Episode: 7699, Event: hole, Total Score: -149, Turns: 0, Turn Penalty: -3, Epsilon: 0.1360
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 399, Global Episode: 7700, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: -3, Epsilon: 0.1353
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 400, Global Episode: 7701, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: -3, Epsilon: 0.1347
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 401, Global Episode: 7702, Event: hole, Total Score: -86, Turns: 0, Turn Penalty: 0, Epsilon: 0.1340
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 402, Global Episode: 7703, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.1333
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 403, Global Episode: 7704, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.1326
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 404, Global Episode: 7705, Event: goal, Total Score: -48, Turns: 0, Turn Penalty: 0, Epsilon: 0.1320 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 405, Global Episode: 7706, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.1313
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 406, Global Episode: 7707, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.1307
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 407, Global Episode: 7708, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.1300 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 408, Global Episode: 7709, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.1294
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 409, Global Episode: 7710, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.1287
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 410, Global Episode: 7711, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.1281
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 411, Global Episode: 7712, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.1274
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 412, Global Episode: 7713, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.1268 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 413, Global Episode: 7714, Event: hole, Total Score: -62, Turns: 0, Turn Penalty: -3, Epsilon: 0.1262
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 414, Global Episode: 7715, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.1255
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 415, Global Episode: 7716, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.1249
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 416, Global Episode: 7717, Event: goal, Total Score: 14, Turns: 0, Turn Penalty: 0, Epsilon: 0.1243 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 417, Global Episode: 7718, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.1237
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 418, Global Episode: 7719, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: -3, Epsilon: 0.1230
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 419, Global Episode: 7720, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.1224
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 420, Global Episode: 7721, Event: hole, Total Score: -62, Turns: 0, Turn Penalty: -3, Epsilon: 0.1218
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 421, Global Episode: 7722, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: -3, Epsilon: 0.1212
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 422, Global Episode: 7723, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: 0, Epsilon: 0.1206
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 423, Global Episode: 7724, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.1200
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 424, Global Episode: 7725, Event: hole, Total Score: -147, Turns: 0, Turn Penalty: 0, Epsilon: 0.1194
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 425, Global Episode: 7726, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: 0, Epsilon: 0.1188
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 426, Global Episode: 7727, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: 0, Epsilon: 0.1182
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 427, Global Episode: 7728, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.1176
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 428, Global Episode: 7729, Event: goal, Total Score: -16, Turns: 0, Turn Penalty: 0, Epsilon: 0.1170 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 429, Global Episode: 7730, Event: hole, Total Score: -79, Turns: 0, Turn Penalty: 0, Epsilon: 0.1164
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 430, Global Episode: 7731, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.1159
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 431, Global Episode: 7732, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.1153 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 432, Global Episode: 7733, Event: hole, Total Score: -69, Turns: 0, Turn Penalty: -3, Epsilon: 0.1147
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 433, Global Episode: 7734, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.1141
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 434, Global Episode: 7735, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.1136
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 435, Global Episode: 7736, Event: goal, Total Score: 10, Turns: 0, Turn Penalty: 0, Epsilon: 0.1130 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 436, Global Episode: 7737, Event: goal, Total Score: 2, Turns: 0, Turn Penalty: 0, Epsilon: 0.1124 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 437, Global Episode: 7738, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: -3, Epsilon: 0.1119
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 438, Global Episode: 7739, Event: goal, Total Score: 18, Turns: 0, Turn Penalty: 0, Epsilon: 0.1113 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 439, Global Episode: 7740, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: 0, Epsilon: 0.1107
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 440, Global Episode: 7741, Event: hole, Total Score: -63, Turns: 0, Turn Penalty: -3, Epsilon: 0.1102
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 441, Global Episode: 7742, Event: hole, Total Score: -108, Turns: 0, Turn Penalty: 0, Epsilon: 0.1096
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 442, Global Episode: 7743, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.1091 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 443, Global Episode: 7744, Event: goal, Total Score: 18, Turns: 0, Turn Penalty: 0, Epsilon: 0.1085 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 444, Global Episode: 7745, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.1080
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 445, Global Episode: 7746, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.1075 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 446, Global Episode: 7747, Event: hole, Total Score: -120, Turns: 0, Turn Penalty: -3, Epsilon: 0.1069
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 447, Global Episode: 7748, Event: goal, Total Score: -2, Turns: 0, Turn Penalty: 0, Epsilon: 0.1064 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 448, Global Episode: 7749, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: 0, Epsilon: 0.1059
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 449, Global Episode: 7750, Event: goal, Total Score: 6, Turns: 0, Turn Penalty: 0, Epsilon: 0.1053 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 450, Global Episode: 7751, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.1048
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 451, Global Episode: 7752, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.1043
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 452, Global Episode: 7753, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.1038
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 453, Global Episode: 7754, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: 0, Epsilon: 0.1032
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 454, Global Episode: 7755, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.1027 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 455, Global Episode: 7756, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: 0, Epsilon: 0.1022
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 456, Global Episode: 7757, Event: goal, Total Score: -10, Turns: 0, Turn Penalty: 0, Epsilon: 0.1017 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 457, Global Episode: 7758, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: 0, Epsilon: 0.1012
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 458, Global Episode: 7759, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.1007
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 459, Global Episode: 7760, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: 0, Epsilon: 0.1002 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 460, Global Episode: 7761, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0997 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 461, Global Episode: 7762, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0992 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 462, Global Episode: 7763, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.0987
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 463, Global Episode: 7764, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.0982 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 464, Global Episode: 7765, Event: goal, Total Score: 8, Turns: 0, Turn Penalty: 0, Epsilon: 0.0977 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 465, Global Episode: 7766, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.0972
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 466, Global Episode: 7767, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.0967
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 467, Global Episode: 7768, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.0962
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 468, Global Episode: 7769, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0958
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 469, Global Episode: 7770, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.0953 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 470, Global Episode: 7771, Event: goal, Total Score: -26, Turns: 0, Turn Penalty: 0, Epsilon: 0.0948 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 471, Global Episode: 7772, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: 0, Epsilon: 0.0943 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 472, Global Episode: 7773, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.0939 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 473, Global Episode: 7774, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.0934
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 474, Global Episode: 7775, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.0929
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 475, Global Episode: 7776, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.0925
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 476, Global Episode: 7777, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.0920 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 477, Global Episode: 7778, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: 0, Epsilon: 0.0915 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 478, Global Episode: 7779, Event: hole, Total Score: -29, Turns: 0, Turn Penalty: -3, Epsilon: 0.0911
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 479, Global Episode: 7780, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.0906
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 480, Global Episode: 7781, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.0902 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 481, Global Episode: 7782, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.0897
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 482, Global Episode: 7783, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: -3, Epsilon: 0.0893 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 483, Global Episode: 7784, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.0888 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 484, Global Episode: 7785, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.0884 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 485, Global Episode: 7786, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.0879 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 486, Global Episode: 7787, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0875 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 487, Global Episode: 7788, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0871 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 488, Global Episode: 7789, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.0866 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 489, Global Episode: 7790, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.0862 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 490, Global Episode: 7791, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.0858 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 491, Global Episode: 7792, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.0853 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 492, Global Episode: 7793, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0849 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 493, Global Episode: 7794, Event: goal, Total Score: 2, Turns: 0, Turn Penalty: 0, Epsilon: 0.0845 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 494, Global Episode: 7795, Event: goal, Total Score: 4, Turns: 0, Turn Penalty: 0, Epsilon: 0.0841 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 495, Global Episode: 7796, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.0836 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 496, Global Episode: 7797, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.0832
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 497, Global Episode: 7798, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0828 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 498, Global Episode: 7799, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.0824
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 499, Global Episode: 7800, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.0820 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 500, Global Episode: 7801, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.0816 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 501, Global Episode: 7802, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.0812
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 502, Global Episode: 7803, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0808 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 503, Global Episode: 7804, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.0804
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 504, Global Episode: 7805, Event: goal, Total Score: 6, Turns: 0, Turn Penalty: 0, Epsilon: 0.0800 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 505, Global Episode: 7806, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: -3, Epsilon: 0.0796 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 506, Global Episode: 7807, Event: goal, Total Score: -14, Turns: 0, Turn Penalty: 0, Epsilon: 0.0792 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 507, Global Episode: 7808, Event: goal, Total Score: 8, Turns: 0, Turn Penalty: 0, Epsilon: 0.0788 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 508, Global Episode: 7809, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: -3, Epsilon: 0.0784
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 509, Global Episode: 7810, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.0780
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 510, Global Episode: 7811, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.0776
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 511, Global Episode: 7812, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.0772
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 512, Global Episode: 7813, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.0768 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 513, Global Episode: 7814, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.0764 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 514, Global Episode: 7815, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0760 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 515, Global Episode: 7816, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: 0, Epsilon: 0.0757 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 516, Global Episode: 7817, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0753 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 517, Global Episode: 7818, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.0749
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 518, Global Episode: 7819, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.0745 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 519, Global Episode: 7820, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0742 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 520, Global Episode: 7821, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0738 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 521, Global Episode: 7822, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0734 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 522, Global Episode: 7823, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.0731
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 523, Global Episode: 7824, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0727 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 524, Global Episode: 7825, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.0723
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 525, Global Episode: 7826, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0720 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 526, Global Episode: 7827, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0716 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 527, Global Episode: 7828, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0712 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 528, Global Episode: 7829, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0709 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 529, Global Episode: 7830, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0705 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 530, Global Episode: 7831, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0702 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 531, Global Episode: 7832, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0698 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 532, Global Episode: 7833, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0695 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 533, Global Episode: 7834, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0691 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 534, Global Episode: 7835, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: 0, Epsilon: 0.0688
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 535, Global Episode: 7836, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0684
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 536, Global Episode: 7837, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0681 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 537, Global Episode: 7838, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0678 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 538, Global Episode: 7839, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0674 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 539, Global Episode: 7840, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0671 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 540, Global Episode: 7841, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0668 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 541, Global Episode: 7842, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0664 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 542, Global Episode: 7843, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0661 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 543, Global Episode: 7844, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0658 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 544, Global Episode: 7845, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0654 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 545, Global Episode: 7846, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0651 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 546, Global Episode: 7847, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0648 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 547, Global Episode: 7848, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.0645
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 548, Global Episode: 7849, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0641 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 549, Global Episode: 7850, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0638 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 550, Global Episode: 7851, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0635 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 551, Global Episode: 7852, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0632 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 552, Global Episode: 7853, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0629 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 553, Global Episode: 7854, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.0625 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 554, Global Episode: 7855, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0622 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 555, Global Episode: 7856, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0619 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 556, Global Episode: 7857, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0616 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 557, Global Episode: 7858, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0613 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 558, Global Episode: 7859, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0610 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 559, Global Episode: 7860, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0607 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 560, Global Episode: 7861, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0604 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 561, Global Episode: 7862, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0601 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 562, Global Episode: 7863, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0598
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 563, Global Episode: 7864, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0595 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 564, Global Episode: 7865, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0592 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 565, Global Episode: 7866, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0589 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 566, Global Episode: 7867, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.0586
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 567, Global Episode: 7868, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0583 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 568, Global Episode: 7869, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0580 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 569, Global Episode: 7870, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0577 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 570, Global Episode: 7871, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.0574
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 571, Global Episode: 7872, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.0571
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 572, Global Episode: 7873, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0569 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 573, Global Episode: 7874, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.0566 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 574, Global Episode: 7875, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0563 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 575, Global Episode: 7876, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0560 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 576, Global Episode: 7877, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0557 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 577, Global Episode: 7878, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0555 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 578, Global Episode: 7879, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0552 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 579, Global Episode: 7880, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0549 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 580, Global Episode: 7881, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0546 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 581, Global Episode: 7882, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0544 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 582, Global Episode: 7883, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0541 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 583, Global Episode: 7884, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0538 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 584, Global Episode: 7885, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0535 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 585, Global Episode: 7886, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0533 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 586, Global Episode: 7887, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0530 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 587, Global Episode: 7888, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0527 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 588, Global Episode: 7889, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0525 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 589, Global Episode: 7890, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0522 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 590, Global Episode: 7891, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0520 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 591, Global Episode: 7892, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0517 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 592, Global Episode: 7893, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0514 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 593, Global Episode: 7894, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0512 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 594, Global Episode: 7895, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0509 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 595, Global Episode: 7896, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0507 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 596, Global Episode: 7897, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0504 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 597, Global Episode: 7898, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0502 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 598, Global Episode: 7899, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 599, Global Episode: 7900, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 600, Global Episode: 7901, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 601, Global Episode: 7902, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 602, Global Episode: 7903, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 603, Global Episode: 7904, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 604, Global Episode: 7905, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 605, Global Episode: 7906, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 606, Global Episode: 7907, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 7, Phase: 1/2, Algorithm: sarsa, Episode: 607, Global Episode: 7908, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]

@@ -1,0 +1,25 @@
+Round: 6
+Phase: 2/2
+Algorithm: q_learning
+Episode: 598
+Global Episode: 7292
+Event: goal
+Total Score: 36
+Turns: 0
+Epsilon: 0.0500
+Steps: 14
+Steps_X: 7
+Steps_Y: 7
+Selected From Goal Runs: 10
+Path Length: 15
+Legend: S=Start, G=Goal, H=Hole, *=Path, .=Empty
+
+S . . . . . H .
+. . . . . H . .
+. H . H . . . .
+H . . H . . . .
+H . . . . . H .
+. . . . . H . .
+. . . H . . . .
+. . . . . . H G
+

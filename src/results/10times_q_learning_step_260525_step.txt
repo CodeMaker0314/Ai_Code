@@ -1,0 +1,607 @@
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 1, Global Episode: 11554, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.9950
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 2, Global Episode: 11555, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.9900
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 3, Global Episode: 11556, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.9851
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 4, Global Episode: 11557, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.9801
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 5, Global Episode: 11558, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.9752
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 6, Global Episode: 11559, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.9704
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 7, Global Episode: 11560, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.9655
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 8, Global Episode: 11561, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: 0, Epsilon: 0.9607
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 9, Global Episode: 11562, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.9559
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 10, Global Episode: 11563, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.9511
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 11, Global Episode: 11564, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.9464
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 12, Global Episode: 11565, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: 0, Epsilon: 0.9416
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 13, Global Episode: 11566, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.9369
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 14, Global Episode: 11567, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: -3, Epsilon: 0.9322
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 15, Global Episode: 11568, Event: hole, Total Score: -76, Turns: 0, Turn Penalty: -3, Epsilon: 0.9276
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 16, Global Episode: 11569, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.9229
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 17, Global Episode: 11570, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.9183
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 18, Global Episode: 11571, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.9137
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 19, Global Episode: 11572, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.9092
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 20, Global Episode: 11573, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.9046
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 21, Global Episode: 11574, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.9001
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 22, Global Episode: 11575, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.8956
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 23, Global Episode: 11576, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.8911
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 24, Global Episode: 11577, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.8867
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 25, Global Episode: 11578, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.8822
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 26, Global Episode: 11579, Event: hole, Total Score: -66, Turns: 0, Turn Penalty: -3, Epsilon: 0.8778
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 27, Global Episode: 11580, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: -3, Epsilon: 0.8734
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 28, Global Episode: 11581, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.8691
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 29, Global Episode: 11582, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.8647
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 30, Global Episode: 11583, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.8604
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 31, Global Episode: 11584, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.8561
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 32, Global Episode: 11585, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.8518
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 33, Global Episode: 11586, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.8475
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 34, Global Episode: 11587, Event: hole, Total Score: -82, Turns: 0, Turn Penalty: -3, Epsilon: 0.8433
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 35, Global Episode: 11588, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.8391
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 36, Global Episode: 11589, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.8349
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 37, Global Episode: 11590, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.8307
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 38, Global Episode: 11591, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.8266
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 39, Global Episode: 11592, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.8224
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 40, Global Episode: 11593, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.8183
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 41, Global Episode: 11594, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.8142
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 42, Global Episode: 11595, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: -3, Epsilon: 0.8102
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 43, Global Episode: 11596, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.8061
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 44, Global Episode: 11597, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.8021
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 45, Global Episode: 11598, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: 0, Epsilon: 0.7981
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 46, Global Episode: 11599, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.7941
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 47, Global Episode: 11600, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.7901
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 48, Global Episode: 11601, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.7862
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 49, Global Episode: 11602, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: -3, Epsilon: 0.7822
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 50, Global Episode: 11603, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.7783
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 51, Global Episode: 11604, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.7744
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 52, Global Episode: 11605, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.7705
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 53, Global Episode: 11606, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.7667
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 54, Global Episode: 11607, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: -3, Epsilon: 0.7629
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 55, Global Episode: 11608, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: 0, Epsilon: 0.7590
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 56, Global Episode: 11609, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.7553
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 57, Global Episode: 11610, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.7515
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 58, Global Episode: 11611, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.7477
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 59, Global Episode: 11612, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.7440
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 60, Global Episode: 11613, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.7403
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 61, Global Episode: 11614, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.7366
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 62, Global Episode: 11615, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.7329
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 63, Global Episode: 11616, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.7292
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 64, Global Episode: 11617, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.7256
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 65, Global Episode: 11618, Event: hole, Total Score: -78, Turns: 0, Turn Penalty: 0, Epsilon: 0.7219
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 66, Global Episode: 11619, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.7183
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 67, Global Episode: 11620, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.7147
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 68, Global Episode: 11621, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.7112
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 69, Global Episode: 11622, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.7076
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 70, Global Episode: 11623, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.7041
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 71, Global Episode: 11624, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.7005
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 72, Global Episode: 11625, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.6970
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 73, Global Episode: 11626, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.6936
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 74, Global Episode: 11627, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.6901
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 75, Global Episode: 11628, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.6866
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 76, Global Episode: 11629, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.6832
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 77, Global Episode: 11630, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.6798
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 78, Global Episode: 11631, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: 0, Epsilon: 0.6764
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 79, Global Episode: 11632, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: -3, Epsilon: 0.6730
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 80, Global Episode: 11633, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.6696
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 81, Global Episode: 11634, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.6663
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 82, Global Episode: 11635, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.6630
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 83, Global Episode: 11636, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.6597
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 84, Global Episode: 11637, Event: hole, Total Score: -62, Turns: 0, Turn Penalty: -3, Epsilon: 0.6564
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 85, Global Episode: 11638, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.6531
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 86, Global Episode: 11639, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.6498
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 87, Global Episode: 11640, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.6466
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 88, Global Episode: 11641, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.6433
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 89, Global Episode: 11642, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.6401
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 90, Global Episode: 11643, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.6369
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 91, Global Episode: 11644, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.6337
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 92, Global Episode: 11645, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.6306
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 93, Global Episode: 11646, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.6274
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 94, Global Episode: 11647, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.6243
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 95, Global Episode: 11648, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.6211
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 96, Global Episode: 11649, Event: hole, Total Score: -68, Turns: 0, Turn Penalty: -3, Epsilon: 0.6180
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 97, Global Episode: 11650, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.6149
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 98, Global Episode: 11651, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.6119
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 99, Global Episode: 11652, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: 0, Epsilon: 0.6088
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 100, Global Episode: 11653, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.6058
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 101, Global Episode: 11654, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.6027
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 102, Global Episode: 11655, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.5997
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 103, Global Episode: 11656, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.5967
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 104, Global Episode: 11657, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.5937
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 105, Global Episode: 11658, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.5908
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 106, Global Episode: 11659, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.5878
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 107, Global Episode: 11660, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.5849
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 108, Global Episode: 11661, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.5820
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 109, Global Episode: 11662, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.5790
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 110, Global Episode: 11663, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.5762
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 111, Global Episode: 11664, Event: hole, Total Score: -70, Turns: 0, Turn Penalty: -3, Epsilon: 0.5733
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 112, Global Episode: 11665, Event: hole, Total Score: -68, Turns: 0, Turn Penalty: -3, Epsilon: 0.5704
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 113, Global Episode: 11666, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.5676
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 114, Global Episode: 11667, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.5647
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 115, Global Episode: 11668, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.5619
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 116, Global Episode: 11669, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.5591
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 117, Global Episode: 11670, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.5563
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 118, Global Episode: 11671, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: 0, Epsilon: 0.5535
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 119, Global Episode: 11672, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.5507
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 120, Global Episode: 11673, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.5480
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 121, Global Episode: 11674, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.5452
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 122, Global Episode: 11675, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.5425
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 123, Global Episode: 11676, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.5398
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 124, Global Episode: 11677, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.5371
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 125, Global Episode: 11678, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.5344
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 126, Global Episode: 11679, Event: goal, Total Score: -14, Turns: 0, Turn Penalty: -3, Epsilon: 0.5318 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 127, Global Episode: 11680, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.5291
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 128, Global Episode: 11681, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.5264
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 129, Global Episode: 11682, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.5238
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 130, Global Episode: 11683, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: -3, Epsilon: 0.5212
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 131, Global Episode: 11684, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.5186
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 132, Global Episode: 11685, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: 0, Epsilon: 0.5160
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 133, Global Episode: 11686, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.5134
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 134, Global Episode: 11687, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.5108
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 135, Global Episode: 11688, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.5083
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 136, Global Episode: 11689, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: -3, Epsilon: 0.5058
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 137, Global Episode: 11690, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.5032
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 138, Global Episode: 11691, Event: hole, Total Score: -84, Turns: 0, Turn Penalty: -3, Epsilon: 0.5007
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 139, Global Episode: 11692, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.4982
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 140, Global Episode: 11693, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.4957
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 141, Global Episode: 11694, Event: hole, Total Score: -63, Turns: 0, Turn Penalty: -3, Epsilon: 0.4932
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 142, Global Episode: 11695, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.4908
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 143, Global Episode: 11696, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.4883
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 144, Global Episode: 11697, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.4859
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 145, Global Episode: 11698, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.4834
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 146, Global Episode: 11699, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.4810
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 147, Global Episode: 11700, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.4786
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 148, Global Episode: 11701, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.4762
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 149, Global Episode: 11702, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: 0, Epsilon: 0.4738
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 150, Global Episode: 11703, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.4715
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 151, Global Episode: 11704, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.4691
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 152, Global Episode: 11705, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.4668
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 153, Global Episode: 11706, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.4644
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 154, Global Episode: 11707, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.4621
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 155, Global Episode: 11708, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: -3, Epsilon: 0.4598
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 156, Global Episode: 11709, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.4575
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 157, Global Episode: 11710, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.4552
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 158, Global Episode: 11711, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.4529
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 159, Global Episode: 11712, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: 0, Epsilon: 0.4507
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 160, Global Episode: 11713, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.4484
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 161, Global Episode: 11714, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.4462
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 162, Global Episode: 11715, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: 0, Epsilon: 0.4440
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 163, Global Episode: 11716, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.4417
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 164, Global Episode: 11717, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.4395
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 165, Global Episode: 11718, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.4373
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 166, Global Episode: 11719, Event: goal, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.4351 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 167, Global Episode: 11720, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.4330
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 168, Global Episode: 11721, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: 0, Epsilon: 0.4308
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 169, Global Episode: 11722, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.4286
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 170, Global Episode: 11723, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.4265
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 171, Global Episode: 11724, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.4244
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 172, Global Episode: 11725, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.4223
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 173, Global Episode: 11726, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.4201
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 174, Global Episode: 11727, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: 0, Epsilon: 0.4180
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 175, Global Episode: 11728, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.4159
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 176, Global Episode: 11729, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: 0, Epsilon: 0.4139
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 177, Global Episode: 11730, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.4118
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 178, Global Episode: 11731, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.4097
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 179, Global Episode: 11732, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.4077
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 180, Global Episode: 11733, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.4057
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 181, Global Episode: 11734, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.4036
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 182, Global Episode: 11735, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: -3, Epsilon: 0.4016
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 183, Global Episode: 11736, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.3996
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 184, Global Episode: 11737, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.3976
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 185, Global Episode: 11738, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.3956
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 186, Global Episode: 11739, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.3936
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 187, Global Episode: 11740, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.3917
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 188, Global Episode: 11741, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.3897
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 189, Global Episode: 11742, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: 0, Epsilon: 0.3878
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 190, Global Episode: 11743, Event: hole, Total Score: -69, Turns: 0, Turn Penalty: 0, Epsilon: 0.3858
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 191, Global Episode: 11744, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.3839
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 192, Global Episode: 11745, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.3820
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 193, Global Episode: 11746, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.3801
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 194, Global Episode: 11747, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.3782
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 195, Global Episode: 11748, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: -3, Epsilon: 0.3763
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 196, Global Episode: 11749, Event: hole, Total Score: -60, Turns: 0, Turn Penalty: 0, Epsilon: 0.3744
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 197, Global Episode: 11750, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.3725
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 198, Global Episode: 11751, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.3707
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 199, Global Episode: 11752, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.3688
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 200, Global Episode: 11753, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.3670
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 201, Global Episode: 11754, Event: hole, Total Score: -76, Turns: 0, Turn Penalty: 0, Epsilon: 0.3651
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 202, Global Episode: 11755, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: -3, Epsilon: 0.3633
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 203, Global Episode: 11756, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: -3, Epsilon: 0.3615
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 204, Global Episode: 11757, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: -3, Epsilon: 0.3597 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 205, Global Episode: 11758, Event: hole, Total Score: -84, Turns: 0, Turn Penalty: -3, Epsilon: 0.3579
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 206, Global Episode: 11759, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.3561
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 207, Global Episode: 11760, Event: hole, Total Score: -51, Turns: 0, Turn Penalty: 0, Epsilon: 0.3543
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 208, Global Episode: 11761, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: -3, Epsilon: 0.3525
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 209, Global Episode: 11762, Event: hole, Total Score: -76, Turns: 0, Turn Penalty: 0, Epsilon: 0.3508
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 210, Global Episode: 11763, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: 0, Epsilon: 0.3490
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 211, Global Episode: 11764, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.3473
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 212, Global Episode: 11765, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.3455
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 213, Global Episode: 11766, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: 0, Epsilon: 0.3438
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 214, Global Episode: 11767, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.3421
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 215, Global Episode: 11768, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.3404
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 216, Global Episode: 11769, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.3387
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 217, Global Episode: 11770, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.3370
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 218, Global Episode: 11771, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: -3, Epsilon: 0.3353
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 219, Global Episode: 11772, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.3336
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 220, Global Episode: 11773, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.3320
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 221, Global Episode: 11774, Event: hole, Total Score: -58, Turns: 0, Turn Penalty: 0, Epsilon: 0.3303
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 222, Global Episode: 11775, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.3286
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 223, Global Episode: 11776, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: 0, Epsilon: 0.3270
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 224, Global Episode: 11777, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.3254
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 225, Global Episode: 11778, Event: goal, Total Score: 6, Turns: 0, Turn Penalty: 0, Epsilon: 0.3237 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 226, Global Episode: 11779, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.3221
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 227, Global Episode: 11780, Event: hole, Total Score: -86, Turns: 0, Turn Penalty: -3, Epsilon: 0.3205
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 228, Global Episode: 11781, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.3189
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 229, Global Episode: 11782, Event: hole, Total Score: -62, Turns: 0, Turn Penalty: -3, Epsilon: 0.3173
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 230, Global Episode: 11783, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.3157 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 231, Global Episode: 11784, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.3141
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 232, Global Episode: 11785, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.3126
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 233, Global Episode: 11786, Event: hole, Total Score: -31, Turns: 0, Turn Penalty: -3, Epsilon: 0.3110
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 234, Global Episode: 11787, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.3095
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 235, Global Episode: 11788, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.3079
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 236, Global Episode: 11789, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.3064
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 237, Global Episode: 11790, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.3048
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 238, Global Episode: 11791, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.3033
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 239, Global Episode: 11792, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.3018 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 240, Global Episode: 11793, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: 0, Epsilon: 0.3003
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 241, Global Episode: 11794, Event: hole, Total Score: -74, Turns: 0, Turn Penalty: 0, Epsilon: 0.2988
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 242, Global Episode: 11795, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.2973
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 243, Global Episode: 11796, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.2958
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 244, Global Episode: 11797, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.2943 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 245, Global Episode: 11798, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.2929 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 246, Global Episode: 11799, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.2914
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 247, Global Episode: 11800, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.2899
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 248, Global Episode: 11801, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.2885
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 249, Global Episode: 11802, Event: hole, Total Score: -68, Turns: 0, Turn Penalty: -3, Epsilon: 0.2870
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 250, Global Episode: 11803, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.2856
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 251, Global Episode: 11804, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: 0, Epsilon: 0.2842
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 252, Global Episode: 11805, Event: hole, Total Score: -85, Turns: 0, Turn Penalty: 0, Epsilon: 0.2828
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 253, Global Episode: 11806, Event: goal, Total Score: 8, Turns: 0, Turn Penalty: -3, Epsilon: 0.2813 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 254, Global Episode: 11807, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.2799
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 255, Global Episode: 11808, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.2785
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 256, Global Episode: 11809, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: -3, Epsilon: 0.2771 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 257, Global Episode: 11810, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.2758 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 258, Global Episode: 11811, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.2744
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 259, Global Episode: 11812, Event: hole, Total Score: -63, Turns: 0, Turn Penalty: -3, Epsilon: 0.2730
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 260, Global Episode: 11813, Event: hole, Total Score: -57, Turns: 0, Turn Penalty: 0, Epsilon: 0.2716
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 261, Global Episode: 11814, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: -3, Epsilon: 0.2703
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 262, Global Episode: 11815, Event: hole, Total Score: -59, Turns: 0, Turn Penalty: -3, Epsilon: 0.2689
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 263, Global Episode: 11816, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: 0, Epsilon: 0.2676 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 264, Global Episode: 11817, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.2663
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 265, Global Episode: 11818, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.2649
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 266, Global Episode: 11819, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.2636
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 267, Global Episode: 11820, Event: hole, Total Score: -48, Turns: 0, Turn Penalty: -3, Epsilon: 0.2623
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 268, Global Episode: 11821, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.2610 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 269, Global Episode: 11822, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.2597
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 270, Global Episode: 11823, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.2584
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 271, Global Episode: 11824, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.2571
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 272, Global Episode: 11825, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.2558
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 273, Global Episode: 11826, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.2545 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 274, Global Episode: 11827, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.2532
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 275, Global Episode: 11828, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.2520
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 276, Global Episode: 11829, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.2507
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 277, Global Episode: 11830, Event: hole, Total Score: -86, Turns: 0, Turn Penalty: -3, Epsilon: 0.2495
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 278, Global Episode: 11831, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.2482
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 279, Global Episode: 11832, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: -3, Epsilon: 0.2470 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 280, Global Episode: 11833, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.2457
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 281, Global Episode: 11834, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.2445
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 282, Global Episode: 11835, Event: hole, Total Score: -62, Turns: 0, Turn Penalty: 0, Epsilon: 0.2433
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 283, Global Episode: 11836, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: -3, Epsilon: 0.2421
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 284, Global Episode: 11837, Event: goal, Total Score: 10, Turns: 0, Turn Penalty: -3, Epsilon: 0.2409 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 285, Global Episode: 11838, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.2397
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 286, Global Episode: 11839, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.2385
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 287, Global Episode: 11840, Event: goal, Total Score: -2, Turns: 0, Turn Penalty: 0, Epsilon: 0.2373 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 288, Global Episode: 11841, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: -3, Epsilon: 0.2361
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 289, Global Episode: 11842, Event: hole, Total Score: -28, Turns: 0, Turn Penalty: 0, Epsilon: 0.2349
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 290, Global Episode: 11843, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.2337
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 291, Global Episode: 11844, Event: goal, Total Score: 18, Turns: 0, Turn Penalty: -3, Epsilon: 0.2326 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 292, Global Episode: 11845, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.2314
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 293, Global Episode: 11846, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.2302
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 294, Global Episode: 11847, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.2291 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 295, Global Episode: 11848, Event: hole, Total Score: -76, Turns: 0, Turn Penalty: -3, Epsilon: 0.2279
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 296, Global Episode: 11849, Event: hole, Total Score: -76, Turns: 0, Turn Penalty: -3, Epsilon: 0.2268
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 297, Global Episode: 11850, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: 0, Epsilon: 0.2257
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 298, Global Episode: 11851, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.2245
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 299, Global Episode: 11852, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.2234
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 300, Global Episode: 11853, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.2223 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 301, Global Episode: 11854, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.2212 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 302, Global Episode: 11855, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.2201
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 303, Global Episode: 11856, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: -3, Epsilon: 0.2190 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 304, Global Episode: 11857, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.2179
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 305, Global Episode: 11858, Event: hole, Total Score: -85, Turns: 0, Turn Penalty: -3, Epsilon: 0.2168
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 306, Global Episode: 11859, Event: goal, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.2157 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 307, Global Episode: 11860, Event: hole, Total Score: -75, Turns: 0, Turn Penalty: 0, Epsilon: 0.2146
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 308, Global Episode: 11861, Event: hole, Total Score: -55, Turns: 0, Turn Penalty: 0, Epsilon: 0.2136
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 309, Global Episode: 11862, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.2125
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 310, Global Episode: 11863, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: -3, Epsilon: 0.2114 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 311, Global Episode: 11864, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: 0, Epsilon: 0.2104
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 312, Global Episode: 11865, Event: hole, Total Score: -61, Turns: 0, Turn Penalty: 0, Epsilon: 0.2093
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 313, Global Episode: 11866, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.2083
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 314, Global Episode: 11867, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.2072 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 315, Global Episode: 11868, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.2062
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 316, Global Episode: 11869, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: -3, Epsilon: 0.2052
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 317, Global Episode: 11870, Event: goal, Total Score: 16, Turns: 0, Turn Penalty: 0, Epsilon: 0.2041 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 318, Global Episode: 11871, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.2031
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 319, Global Episode: 11872, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.2021
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 320, Global Episode: 11873, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.2011 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 321, Global Episode: 11874, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.2001 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 322, Global Episode: 11875, Event: goal, Total Score: 18, Turns: 0, Turn Penalty: -3, Epsilon: 0.1991 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 323, Global Episode: 11876, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.1981
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 324, Global Episode: 11877, Event: goal, Total Score: -8, Turns: 0, Turn Penalty: 0, Epsilon: 0.1971 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 325, Global Episode: 11878, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.1961
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 326, Global Episode: 11879, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: 0, Epsilon: 0.1951
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 327, Global Episode: 11880, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1942
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 328, Global Episode: 11881, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1932
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 329, Global Episode: 11882, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: 0, Epsilon: 0.1922
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 330, Global Episode: 11883, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: 0, Epsilon: 0.1913
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 331, Global Episode: 11884, Event: hole, Total Score: -76, Turns: 0, Turn Penalty: -3, Epsilon: 0.1903
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 332, Global Episode: 11885, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: 0, Epsilon: 0.1893 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 333, Global Episode: 11886, Event: hole, Total Score: -54, Turns: 0, Turn Penalty: -3, Epsilon: 0.1884
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 334, Global Episode: 11887, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: -3, Epsilon: 0.1875 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 335, Global Episode: 11888, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: 0, Epsilon: 0.1865
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 336, Global Episode: 11889, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.1856
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 337, Global Episode: 11890, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1847
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 338, Global Episode: 11891, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.1837 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 339, Global Episode: 11892, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.1828
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 340, Global Episode: 11893, Event: hole, Total Score: -42, Turns: 0, Turn Penalty: -3, Epsilon: 0.1819
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 341, Global Episode: 11894, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1810
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 342, Global Episode: 11895, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: 0, Epsilon: 0.1801
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 343, Global Episode: 11896, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: 0, Epsilon: 0.1792 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 344, Global Episode: 11897, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: 0, Epsilon: 0.1783
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 345, Global Episode: 11898, Event: goal, Total Score: 14, Turns: 0, Turn Penalty: -3, Epsilon: 0.1774 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 346, Global Episode: 11899, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1765 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 347, Global Episode: 11900, Event: hole, Total Score: -56, Turns: 0, Turn Penalty: 0, Epsilon: 0.1756
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 348, Global Episode: 11901, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1748 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 349, Global Episode: 11902, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: 0, Epsilon: 0.1739
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 350, Global Episode: 11903, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: -3, Epsilon: 0.1730 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 351, Global Episode: 11904, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1721 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 352, Global Episode: 11905, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.1713
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 353, Global Episode: 11906, Event: goal, Total Score: 6, Turns: 0, Turn Penalty: 0, Epsilon: 0.1704 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 354, Global Episode: 11907, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.1696
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 355, Global Episode: 11908, Event: goal, Total Score: 16, Turns: 0, Turn Penalty: -3, Epsilon: 0.1687 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 356, Global Episode: 11909, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.1679
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 357, Global Episode: 11910, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: -3, Epsilon: 0.1670 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 358, Global Episode: 11911, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: -3, Epsilon: 0.1662 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 359, Global Episode: 11912, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: -3, Epsilon: 0.1654 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 360, Global Episode: 11913, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.1646 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 361, Global Episode: 11914, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1637
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 362, Global Episode: 11915, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.1629
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 363, Global Episode: 11916, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.1621
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 364, Global Episode: 11917, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.1613 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 365, Global Episode: 11918, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: -3, Epsilon: 0.1605 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 366, Global Episode: 11919, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: 0, Epsilon: 0.1597
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 367, Global Episode: 11920, Event: hole, Total Score: -47, Turns: 0, Turn Penalty: -3, Epsilon: 0.1589
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 368, Global Episode: 11921, Event: hole, Total Score: -41, Turns: 0, Turn Penalty: -3, Epsilon: 0.1581
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 369, Global Episode: 11922, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.1573 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 370, Global Episode: 11923, Event: hole, Total Score: -39, Turns: 0, Turn Penalty: 0, Epsilon: 0.1565
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 371, Global Episode: 11924, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: 0, Epsilon: 0.1557
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 372, Global Episode: 11925, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: 0, Epsilon: 0.1549
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 373, Global Episode: 11926, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1542 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 374, Global Episode: 11927, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.1534 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 375, Global Episode: 11928, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.1526
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 376, Global Episode: 11929, Event: hole, Total Score: -64, Turns: 0, Turn Penalty: -3, Epsilon: 0.1519
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 377, Global Episode: 11930, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1511 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 378, Global Episode: 11931, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1504
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 379, Global Episode: 11932, Event: goal, Total Score: 16, Turns: 0, Turn Penalty: -3, Epsilon: 0.1496 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 380, Global Episode: 11933, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: -3, Epsilon: 0.1489 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 381, Global Episode: 11934, Event: hole, Total Score: -44, Turns: 0, Turn Penalty: -3, Epsilon: 0.1481
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 382, Global Episode: 11935, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: 0, Epsilon: 0.1474 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 383, Global Episode: 11936, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1466
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 384, Global Episode: 11937, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1459
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 385, Global Episode: 11938, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.1452 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 386, Global Episode: 11939, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.1444 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 387, Global Episode: 11940, Event: hole, Total Score: -52, Turns: 0, Turn Penalty: 0, Epsilon: 0.1437
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 388, Global Episode: 11941, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1430 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 389, Global Episode: 11942, Event: goal, Total Score: 12, Turns: 0, Turn Penalty: 0, Epsilon: 0.1423 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 390, Global Episode: 11943, Event: hole, Total Score: -67, Turns: 0, Turn Penalty: -3, Epsilon: 0.1416
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 391, Global Episode: 11944, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1409
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 392, Global Episode: 11945, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1402
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 393, Global Episode: 11946, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1395 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 394, Global Episode: 11947, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: -3, Epsilon: 0.1388 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 395, Global Episode: 11948, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.1381 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 396, Global Episode: 11949, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1374 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 397, Global Episode: 11950, Event: goal, Total Score: 8, Turns: 0, Turn Penalty: -3, Epsilon: 0.1367 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 398, Global Episode: 11951, Event: hole, Total Score: -46, Turns: 0, Turn Penalty: -3, Epsilon: 0.1360
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 399, Global Episode: 11952, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: 0, Epsilon: 0.1353 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 400, Global Episode: 11953, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.1347
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 401, Global Episode: 11954, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1340 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 402, Global Episode: 11955, Event: hole, Total Score: -66, Turns: 0, Turn Penalty: -3, Epsilon: 0.1333
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 403, Global Episode: 11956, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1326 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 404, Global Episode: 11957, Event: hole, Total Score: -36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1320
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 405, Global Episode: 11958, Event: hole, Total Score: -50, Turns: 0, Turn Penalty: -3, Epsilon: 0.1313
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 406, Global Episode: 11959, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1307
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 407, Global Episode: 11960, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1300 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 408, Global Episode: 11961, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.1294 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 409, Global Episode: 11962, Event: hole, Total Score: -33, Turns: 0, Turn Penalty: -3, Epsilon: 0.1287
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 410, Global Episode: 11963, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1281 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 411, Global Episode: 11964, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1274 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 412, Global Episode: 11965, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.1268
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 413, Global Episode: 11966, Event: hole, Total Score: -38, Turns: 0, Turn Penalty: -3, Epsilon: 0.1262
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 414, Global Episode: 11967, Event: goal, Total Score: 18, Turns: 0, Turn Penalty: 0, Epsilon: 0.1255 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 415, Global Episode: 11968, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1249 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 416, Global Episode: 11969, Event: hole, Total Score: -53, Turns: 0, Turn Penalty: -3, Epsilon: 0.1243
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 417, Global Episode: 11970, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1237
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 418, Global Episode: 11971, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1230 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 419, Global Episode: 11972, Event: hole, Total Score: -45, Turns: 0, Turn Penalty: 0, Epsilon: 0.1224
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 420, Global Episode: 11973, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1218 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 421, Global Episode: 11974, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.1212
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 422, Global Episode: 11975, Event: hole, Total Score: -79, Turns: 0, Turn Penalty: -3, Epsilon: 0.1206
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 423, Global Episode: 11976, Event: goal, Total Score: 8, Turns: 0, Turn Penalty: -3, Epsilon: 0.1200 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 424, Global Episode: 11977, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1194 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 425, Global Episode: 11978, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: -3, Epsilon: 0.1188 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 426, Global Episode: 11979, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1182 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 427, Global Episode: 11980, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1176 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 428, Global Episode: 11981, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1170 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 429, Global Episode: 11982, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1164
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 430, Global Episode: 11983, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1159 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 431, Global Episode: 11984, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1153 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 432, Global Episode: 11985, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1147 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 433, Global Episode: 11986, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: -3, Epsilon: 0.1141 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 434, Global Episode: 11987, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1136 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 435, Global Episode: 11988, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1130 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 436, Global Episode: 11989, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1124 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 437, Global Episode: 11990, Event: goal, Total Score: 0, Turns: 0, Turn Penalty: -3, Epsilon: 0.1119 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 438, Global Episode: 11991, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: -3, Epsilon: 0.1113 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 439, Global Episode: 11992, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.1107 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 440, Global Episode: 11993, Event: hole, Total Score: -40, Turns: 0, Turn Penalty: -3, Epsilon: 0.1102
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 441, Global Episode: 11994, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1096 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 442, Global Episode: 11995, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: -3, Epsilon: 0.1091 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 443, Global Episode: 11996, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1085 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 444, Global Episode: 11997, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1080 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 445, Global Episode: 11998, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1075
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 446, Global Episode: 11999, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.1069 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 447, Global Episode: 12000, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1064 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 448, Global Episode: 12001, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1059
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 449, Global Episode: 12002, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1053 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 450, Global Episode: 12003, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1048
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 451, Global Episode: 12004, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.1043 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 452, Global Episode: 12005, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.1038 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 453, Global Episode: 12006, Event: goal, Total Score: 20, Turns: 0, Turn Penalty: 0, Epsilon: 0.1032 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 454, Global Episode: 12007, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: -3, Epsilon: 0.1027 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 455, Global Episode: 12008, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: -3, Epsilon: 0.1022 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 456, Global Episode: 12009, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1017 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 457, Global Episode: 12010, Event: goal, Total Score: -30, Turns: 0, Turn Penalty: 0, Epsilon: 0.1012 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 458, Global Episode: 12011, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.1007 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 459, Global Episode: 12012, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.1002 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 460, Global Episode: 12013, Event: hole, Total Score: -34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0997
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 461, Global Episode: 12014, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0992
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 462, Global Episode: 12015, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0987 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 463, Global Episode: 12016, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0982 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 464, Global Episode: 12017, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0977 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 465, Global Episode: 12018, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0972 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 466, Global Episode: 12019, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0967 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 467, Global Episode: 12020, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0962 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 468, Global Episode: 12021, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0958 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 469, Global Episode: 12022, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0953 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 470, Global Episode: 12023, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0948 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 471, Global Episode: 12024, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0943 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 472, Global Episode: 12025, Event: hole, Total Score: -49, Turns: 0, Turn Penalty: -3, Epsilon: 0.0939
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 473, Global Episode: 12026, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0934 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 474, Global Episode: 12027, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: 0, Epsilon: 0.0929 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 475, Global Episode: 12028, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.0925
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 476, Global Episode: 12029, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0920 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 477, Global Episode: 12030, Event: hole, Total Score: -43, Turns: 0, Turn Penalty: -3, Epsilon: 0.0915
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 478, Global Episode: 12031, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0911 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 479, Global Episode: 12032, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0906 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 480, Global Episode: 12033, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0902 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 481, Global Episode: 12034, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0897 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 482, Global Episode: 12035, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0893 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 483, Global Episode: 12036, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0888 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 484, Global Episode: 12037, Event: goal, Total Score: 24, Turns: 0, Turn Penalty: -3, Epsilon: 0.0884 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 485, Global Episode: 12038, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0879 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 486, Global Episode: 12039, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0875 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 487, Global Episode: 12040, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0871 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 488, Global Episode: 12041, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0866 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 489, Global Episode: 12042, Event: hole, Total Score: -35, Turns: 0, Turn Penalty: -3, Epsilon: 0.0862
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 490, Global Episode: 12043, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0858 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 491, Global Episode: 12044, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0853 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 492, Global Episode: 12045, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0849 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 493, Global Episode: 12046, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0845 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 494, Global Episode: 12047, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0841 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 495, Global Episode: 12048, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0836 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 496, Global Episode: 12049, Event: goal, Total Score: 30, Turns: 0, Turn Penalty: 0, Epsilon: 0.0832 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 497, Global Episode: 12050, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: 0, Epsilon: 0.0828 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 498, Global Episode: 12051, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0824 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 499, Global Episode: 12052, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0820
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 500, Global Episode: 12053, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0816 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 501, Global Episode: 12054, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0812 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 502, Global Episode: 12055, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0808 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 503, Global Episode: 12056, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0804 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 504, Global Episode: 12057, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0800 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 505, Global Episode: 12058, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0796 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 506, Global Episode: 12059, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0792 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 507, Global Episode: 12060, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0788 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 508, Global Episode: 12061, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0784 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 509, Global Episode: 12062, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0780 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 510, Global Episode: 12063, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0776 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 511, Global Episode: 12064, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0772 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 512, Global Episode: 12065, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.0768
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 513, Global Episode: 12066, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0764 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 514, Global Episode: 12067, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0760 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 515, Global Episode: 12068, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0757 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 516, Global Episode: 12069, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.0753
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 517, Global Episode: 12070, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0749 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 518, Global Episode: 12071, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0745 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 519, Global Episode: 12072, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0742 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 520, Global Episode: 12073, Event: goal, Total Score: 26, Turns: 0, Turn Penalty: -3, Epsilon: 0.0738 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 521, Global Episode: 12074, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0734 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 522, Global Episode: 12075, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0731 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 523, Global Episode: 12076, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0727 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 524, Global Episode: 12077, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0723 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 525, Global Episode: 12078, Event: hole, Total Score: -32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0720
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 526, Global Episode: 12079, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: -3, Epsilon: 0.0716 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 527, Global Episode: 12080, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0712 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 528, Global Episode: 12081, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0709 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 529, Global Episode: 12082, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0705 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 530, Global Episode: 12083, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0702 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 531, Global Episode: 12084, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0698 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 532, Global Episode: 12085, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0695 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 533, Global Episode: 12086, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0691 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 534, Global Episode: 12087, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0688 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 535, Global Episode: 12088, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0684 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 536, Global Episode: 12089, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0681 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 537, Global Episode: 12090, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0678 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 538, Global Episode: 12091, Event: goal, Total Score: 28, Turns: 0, Turn Penalty: -3, Epsilon: 0.0674 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 539, Global Episode: 12092, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0671 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 540, Global Episode: 12093, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0668 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 541, Global Episode: 12094, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0664 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 542, Global Episode: 12095, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0661 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 543, Global Episode: 12096, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0658 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 544, Global Episode: 12097, Event: goal, Total Score: 22, Turns: 0, Turn Penalty: 0, Epsilon: 0.0654 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 545, Global Episode: 12098, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0651 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 546, Global Episode: 12099, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0648 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 547, Global Episode: 12100, Event: hole, Total Score: -30, Turns: 0, Turn Penalty: -3, Epsilon: 0.0645
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 548, Global Episode: 12101, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0641 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 549, Global Episode: 12102, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0638 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 550, Global Episode: 12103, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0635 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 551, Global Episode: 12104, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0632 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 552, Global Episode: 12105, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0629 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 553, Global Episode: 12106, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0625 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 554, Global Episode: 12107, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0622 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 555, Global Episode: 12108, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0619 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 556, Global Episode: 12109, Event: hole, Total Score: -37, Turns: 0, Turn Penalty: -3, Epsilon: 0.0616
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 557, Global Episode: 12110, Event: goal, Total Score: 18, Turns: 0, Turn Penalty: -3, Epsilon: 0.0613 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 558, Global Episode: 12111, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0610 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 559, Global Episode: 12112, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0607 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 560, Global Episode: 12113, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0604 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 561, Global Episode: 12114, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0601 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 562, Global Episode: 12115, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0598 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 563, Global Episode: 12116, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0595 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 564, Global Episode: 12117, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0592 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 565, Global Episode: 12118, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0589 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 566, Global Episode: 12119, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0586 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 567, Global Episode: 12120, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0583 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 568, Global Episode: 12121, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0580 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 569, Global Episode: 12122, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0577 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 570, Global Episode: 12123, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0574 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 571, Global Episode: 12124, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0571 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 572, Global Episode: 12125, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: 0, Epsilon: 0.0569 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 573, Global Episode: 12126, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0566 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 574, Global Episode: 12127, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0563 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 575, Global Episode: 12128, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0560 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 576, Global Episode: 12129, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0557 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 577, Global Episode: 12130, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0555 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 578, Global Episode: 12131, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0552 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 579, Global Episode: 12132, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0549 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 580, Global Episode: 12133, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0546 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 581, Global Episode: 12134, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0544 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 582, Global Episode: 12135, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0541 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 583, Global Episode: 12136, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0538 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 584, Global Episode: 12137, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: -3, Epsilon: 0.0535 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 585, Global Episode: 12138, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0533 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 586, Global Episode: 12139, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0530 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 587, Global Episode: 12140, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0527 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 588, Global Episode: 12141, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0525 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 589, Global Episode: 12142, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0522 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 590, Global Episode: 12143, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0520 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 591, Global Episode: 12144, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0517 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 592, Global Episode: 12145, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0514 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 593, Global Episode: 12146, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0512 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 594, Global Episode: 12147, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0509 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 595, Global Episode: 12148, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0507 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 596, Global Episode: 12149, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0504 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 597, Global Episode: 12150, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0502 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 598, Global Episode: 12151, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 599, Global Episode: 12152, Event: goal, Total Score: 32, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 600, Global Episode: 12153, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 601, Global Episode: 12154, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 602, Global Episode: 12155, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 603, Global Episode: 12156, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 604, Global Episode: 12157, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: 0, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 605, Global Episode: 12158, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 606, Global Episode: 12159, Event: goal, Total Score: 34, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]
+Round: 10, Phase: 2/2, Algorithm: q_learning, Episode: 607, Global Episode: 12160, Event: goal, Total Score: 36, Turns: 0, Turn Penalty: -3, Epsilon: 0.0500 [GOAL]

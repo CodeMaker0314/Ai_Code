@@ -8,41 +8,24 @@ class Game_map_init:
     MIN_HOLE_COUNT = 11
     MAX_HOLE_COUNT = 20
 
-    def __init__(self, hole_size=60, endpoint_size=60, startpoint_size=60):
+    def __init__(self, hole_size=60, startpoint_size=60):
         self.hole_size = hole_size
-        self.endpoint_size = endpoint_size
         self.startpoint_size = startpoint_size
         self.rows = 8
         self.cols = 8
 
         self.start_position = (0, 0)
-        self.goal_position = (self.rows - 1, self.cols - 1)
         self.map_complexity = 0
+        self.white_positions = []
+        self.white_position_to_index = {}
+        self.white_tile_count = 0
         self.map_data = self.generate_random_map()
 
-        # Color Initial
         self.black = (0, 0, 0)
         self.gray = (200, 200, 200)
         self.green = (0, 255, 0)
-        self.blue = (0, 0, 255)
-
-    def generate_safe_path(self):
-        row, col = self.start_position
-        goal_row, goal_col = self.goal_position
-        path = [(row, col)]
-
-        while (row, col) != (goal_row, goal_col):
-            candidate_moves = []
-
-            if row < goal_row:
-                candidate_moves.append((row + 1, col))
-            if col < goal_col:
-                candidate_moves.append((row, col + 1))
-
-            row, col = random.choice(candidate_moves)
-            path.append((row, col))
-
-        return set(path)
+        self.red = (255, 0, 0)
+        self.gold = (255, 215, 0)
 
     def calculate_map_complexity(self, map_data):
         hole_positions = [
@@ -73,24 +56,59 @@ class Game_map_init:
 
     def _build_random_map(self, hole_count):
         map_data = [[0 for _ in range(self.cols)] for _ in range(self.rows)]
-        safe_path = self.generate_safe_path()
 
         start_row, start_col = self.start_position
-        goal_row, goal_col = self.goal_position
         map_data[start_row][start_col] = 3
-        map_data[goal_row][goal_col] = 2
 
         available_positions = [
             (row, col)
             for row in range(self.rows)
             for col in range(self.cols)
-            if (row, col) not in safe_path
+            if (row, col) != self.start_position
         ]
 
         for row, col in random.sample(available_positions, hole_count):
             map_data[row][col] = 1
 
         return map_data
+
+    def _refresh_tile_cache(self):
+        self.white_positions = [
+            (row, col)
+            for row in range(self.rows)
+            for col in range(self.cols)
+            if self.map_data[row][col] == 0
+        ]
+        self.white_position_to_index = {
+            position: index for index, position in enumerate(self.white_positions)
+        }
+        self.white_tile_count = len(self.white_positions)
+
+    def _get_reachable_positions(self):
+        start_row, start_col = self.start_position
+        queue = [(start_row, start_col)]
+        visited = {(start_row, start_col)}
+
+        while queue:
+            row, col = queue.pop(0)
+            for row_offset, col_offset in ((0, 1), (1, 0), (0, -1), (-1, 0)):
+                next_row = row + row_offset
+                next_col = col + col_offset
+                if not (0 <= next_row < self.rows and 0 <= next_col < self.cols):
+                    continue
+                if self.map_data[next_row][next_col] == 1:
+                    continue
+
+                next_position = (next_row, next_col)
+                if next_position not in visited:
+                    visited.add(next_position)
+                    queue.append(next_position)
+
+        return visited
+
+    def _white_tiles_are_reachable(self):
+        reachable_positions = self._get_reachable_positions()
+        return all(position in reachable_positions for position in self.white_positions)
 
     def generate_random_map(self, hole_count=None):
         use_random_hole_count = hole_count is None
@@ -101,13 +119,13 @@ class Game_map_init:
 
             self.map_data = self._build_random_map(hole_count)
             self.map_complexity = self.calculate_map_complexity(self.map_data)
+            self._refresh_tile_cache()
 
-            if self.MIN_MAP_COMPLEXITY < self.map_complexity < self.MAX_MAP_COMPLEXITY:
+            if self.MIN_MAP_COMPLEXITY < self.map_complexity < self.MAX_MAP_COMPLEXITY and self._white_tiles_are_reachable():
                 break
 
         return self.map_data
 
-    # Draw grid
     def draw_grid(self, screen):
         width = self.cols * self.hole_size
         height = self.rows * self.hole_size
@@ -117,7 +135,6 @@ class Game_map_init:
         for y in range(0, height, self.hole_size):
             pygame.draw.line(screen, self.gray, (0, y), (width, y))
 
-    # Draw hole
     def draw_hole(self, screen):
         for row in range(self.rows):
             for col in range(self.cols):
@@ -127,27 +144,22 @@ class Game_map_init:
                     rect = pygame.Rect(x, y, self.hole_size, self.hole_size)
                     pygame.draw.rect(screen, self.black, rect)
 
-    # Draw endpoint
-    def draw_endpoint(self, screen):
-        for row in range(self.rows):
-            for col in range(self.cols):
-                if self.map_data[row][col] == 2:
-                    x = col * self.endpoint_size
-                    y = row * self.endpoint_size
-                    rect = pygame.Rect(x, y, self.endpoint_size, self.endpoint_size)
-                    pygame.draw.rect(screen, self.green, rect)
+    def draw_startpoint(self, screen, status="not_started"):
+        colors = {
+            "not_started": self.green,
+            "started": self.red,
+            "completed": self.gold,
+        }
+        color = colors.get(status, self.green)
 
-    # Draw startpoint
-    def draw_startpoint(self, screen):
         for row in range(self.rows):
             for col in range(self.cols):
                 if self.map_data[row][col] == 3:
                     x = col * self.startpoint_size
                     y = row * self.startpoint_size
                     rect = pygame.Rect(x, y, self.startpoint_size, self.startpoint_size)
-                    pygame.draw.rect(screen, self.blue, rect)
+                    pygame.draw.rect(screen, color, rect)
 
-    # Initial the title setting(posion, rect_size)
     def _find_tile_rect(self, tile_value, tile_size):
         for row in range(self.rows):
             for col in range(self.cols):
@@ -157,11 +169,6 @@ class Game_map_init:
                     return pygame.Rect(x, y, tile_size, tile_size)
         return None
 
-    # Endpoint rect size Initial
-    def get_endpoint_rect(self):
-        return self._find_tile_rect(2, self.endpoint_size)
-
-    # Startpoint rect size Initial
     def get_startpoint_rect(self):
         return self._find_tile_rect(3, self.startpoint_size)
 
@@ -171,3 +178,10 @@ class Game_map_init:
         if row < 0 or row >= self.rows or col < 0 or col >= self.cols:
             return None
         return self.map_data[row][col]
+
+    def get_white_tile_index_at(self, pos):
+        col = int(pos[0] // self.hole_size)
+        row = int(pos[1] // self.hole_size)
+        if row < 0 or row >= self.rows or col < 0 or col >= self.cols:
+            return None
+        return self.white_position_to_index.get((row, col))

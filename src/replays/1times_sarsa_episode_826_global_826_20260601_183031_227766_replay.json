@@ -1,0 +1,1080 @@
+{
+  "version": 1,
+  "fps": 30,
+  "created_at": "2026-06-01T18:30:31",
+  "metadata": {
+    "training_cycle_count": 1,
+    "training_round_index": 0,
+    "algorithm_name": "sarsa",
+    "episode_count": 826,
+    "global_episode_count": 826,
+    "event_name": "coverage_complete",
+    "score": 135,
+    "epsilon": 0.05,
+    "steps": 193,
+    "steps_x": 96,
+    "steps_y": 97,
+    "covered_white_tiles": 49,
+    "total_white_tiles": 49,
+    "path_length": 194
+  },
+  "map": {
+    "rows": 8,
+    "cols": 8,
+    "tile_size": 60,
+    "map_data": [
+      [
+        3,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    ]
+  },
+  "frames": [
+    {
+      "row": 0,
+      "col": 0,
+      "visited_mask": 0
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "visited_mask": 1
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "visited_mask": 65
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "visited_mask": 1089
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "visited_mask": 263233
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "visited_mask": 8651841
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "visited_mask": 25429057
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "visited_mask": 58983489
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "visited_mask": 126092353
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 4421059649
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 13010994241
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "visited_mask": 13145211969
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "visited_mask": 13146260545
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "visited_mask": 13146276929
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "visited_mask": 13146309697
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "visited_mask": 13148406849
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "visited_mask": 13148406849
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "visited_mask": 13148407361
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "visited_mask": 13148407369
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "visited_mask": 13148407385
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "visited_mask": 13148407385
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "visited_mask": 13148407389
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "visited_mask": 13148407389
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "visited_mask": 13148407389
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "visited_mask": 13148407389
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "visited_mask": 13148472925
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "visited_mask": 13148472925
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "visited_mask": 13148472925
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "visited_mask": 13148481117
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "visited_mask": 13148485213
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "visited_mask": 13149009501
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "visited_mask": 13149009501
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "visited_mask": 13149011549
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "visited_mask": 13149011677
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "visited_mask": 13149011679
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "visited_mask": 13149011679
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "visited_mask": 13149011679
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "visited_mask": 13149011711
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "visited_mask": 13149011711
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "visited_mask": 13149011711
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "visited_mask": 13149011711
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "visited_mask": 13149142783
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "visited_mask": 13153337087
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "visited_mask": 13690207999
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "visited_mask": 82409684735
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "visited_mask": 17674595729151
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "visited_mask": 52858967817983
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "visited_mask": 52996406771455
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "visited_mask": 52997480513279
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "visited_mask": 52999627996927
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "visited_mask": 53274505903871
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "visited_mask": 53824261717759
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 54923773345535
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "visited_mask": 57122796601087
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 61520843112191
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 70316936134399
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 70316936134399
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 351791912845055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 351791912845055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 351791912845055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 351826272583423
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "visited_mask": 351826541018879
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 351826541018879
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 351843720888063
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 351843720888063
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 351843720888063
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 351843720888063
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "visited_mask": 351843720888063
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "visited_mask": 492581209243391
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "visited_mask": 562949953421055
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "visited_mask": 562949953421311
+    }
+  ]
+}

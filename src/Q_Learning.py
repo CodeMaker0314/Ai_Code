@@ -1,16 +1,29 @@
-import pygame
 import random
 
-class QLearning:
 
+class QLearning:
     actions = [
         (0, -1),
+        (1, -1),
         (1, 0),
+        (1, 1),
         (0, 1),
-        (-1, 0)
+        (-1, 1),
+        (-1, 0),
+        (-1, -1),
     ]
 
-    def __init__(self, rows, cols, alpha=0.1, gamma=0.9, epsilon=1.0, epsilon_decay=0.995, epsilon_min=0.05):
+    def __init__(
+        self,
+        rows,
+        cols,
+        alpha=0.1,
+        gamma=0.9,
+        epsilon=1.0,
+        epsilon_decay=0.995,
+        epsilon_min=0.05,
+        blocked_penalty=-10,
+    ):
         self.rows = rows
         self.cols = cols
         self.alpha = alpha
@@ -18,14 +31,21 @@ class QLearning:
         self.epsilon = epsilon
         self.epsilon_decay = epsilon_decay
         self.epsilon_min = epsilon_min
-
+        self.blocked_penalty = blocked_penalty
         self.q_table = {}
         self.last_episode_result = None
 
-    def get_state_from_player(self, player):
+    def get_position_from_player(self, player):
         col = int(player.rect.centerx // player.grid_size)
         row = int(player.rect.centery // player.grid_size)
         return row, col
+
+    def make_state(self, position, visited_mask):
+        return position[0], position[1], visited_mask
+
+    def get_state_from_player(self, player):
+        position = self.get_position_from_player(player)
+        return self.make_state(position, player.visited_white_mask)
 
     def get_q_values(self, state):
         if state not in self.q_table:
@@ -34,32 +54,23 @@ class QLearning:
 
     def get_valid_actions(self, state):
         return [
-            action_index for action_index in range(len(self.actions))
+            action_index
+            for action_index in range(len(self.actions))
             if self.is_valid_state(state, action_index)
         ]
-
-    def choose_action(self, state):
-        q_values = self.get_q_values(state)
-
-        if random.random() < self.epsilon:
-            return random.randrange(len(self.actions))
-
-        max_q = max(q_values)
-        best_actions = [i for i, q in enumerate(q_values) if q == max_q]
-        return random.choice(best_actions)
 
     def action_to_move(self, action_index):
         return self.actions[action_index]
 
     def get_next_state(self, state, action_index):
-        row, col = state
+        row, col, visited_mask = state
         dx, dy = self.action_to_move(action_index)
         next_row = row + dy
         next_col = col + dx
-        return next_row, next_col
+        return next_row, next_col, visited_mask
 
     def is_valid_state(self, state, action_index):
-        next_row, next_col = self.get_next_state(state, action_index)
+        next_row, next_col, _ = self.get_next_state(state, action_index)
         return 0 <= next_row < self.rows and 0 <= next_col < self.cols
 
     def choose_action_with_bounds(self, state):
@@ -92,46 +103,34 @@ class QLearning:
     def decay_epsilon(self):
         self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
 
-    def get_reward_and_done(self, game_map, player, start_center):
-        tile = game_map.get_tile_value_at(player.rect.center)
+    def get_reward_and_done(self, player, game_map):
+        return player.observe_tile(game_map)
 
-        if tile is None:
-            return -200, True, "out"
-
-        if tile == 1:
-            return -60, True, "hole"
-
-        if tile == 2:
-            return 120, True, "goal"
-
-        return -2, False, "move"
-
-    def apply_environment_result(self, game_map, player, start_center):
-        result = player.update_tile_score(game_map, start_center)
-        if result is not None:
-            steps, score, steps_x, steps_y = result
-            self.last_episode_result = ("hole", steps, score, steps_x, steps_y)
-            return self.last_episode_result
-
-        result = player.check_endpoint_and_reset(game_map.get_endpoint_rect(), start_center)
-        if result is not None:
-            steps, score, steps_x, steps_y = result
-            self.last_episode_result = ("goal", steps, score, steps_x, steps_y)
-            return self.last_episode_result
-
-        self.last_episode_result = None
-        return None
+    def capture_episode_result(self, player, event, game_map):
+        result = {
+            "event": event,
+            "steps": player.steps,
+            "score": player.score,
+            "steps_x": player.steps_x,
+            "steps_y": player.steps_y,
+            "covered_white_tiles": player.covered_white_tiles,
+            "total_white_tiles": game_map.white_tile_count,
+        }
+        self.last_episode_result = result
+        return result
 
     def train_step(self, player, game_map, bounds_rect, start_center):
-        state = self.get_state_from_player(player)
+        position = self.get_position_from_player(player)
+        state = self.make_state(position, player.visited_white_mask)
+
         action = self.choose_action_with_bounds(state)
         dx, dy = self.action_to_move(action)
 
         moved = player.step(dx, dy, bounds_rect)
 
         if not moved:
-            reward = -10
-            next_state = state
+            reward = self.blocked_penalty
+            next_state = self.make_state(position, player.visited_white_mask)
             done = False
             self.update(state, action, reward, next_state, done)
             return {
@@ -141,16 +140,20 @@ class QLearning:
                 "next_state": next_state,
                 "done": done,
                 "event": "blocked",
+                "episode_result": None,
             }
 
-        reward, done, event = self.get_reward_and_done(game_map, player, start_center)
-        next_state_before_reset = self.get_state_from_player(player)
+        reward, done, event = self.get_reward_and_done(player, game_map)
+        next_position = self.get_position_from_player(player)
+        next_state_before_reset = self.make_state(next_position, player.visited_white_mask)
 
         self.update(state, action, reward, next_state_before_reset, done)
 
-        episode_result = self.apply_environment_result(game_map, player, start_center)
+        episode_result = None
         if done:
+            episode_result = self.capture_episode_result(player, event, game_map)
             self.decay_epsilon()
+            player.reset_to_center(start_center, journey_completed=True)
 
         return {
             "state": state,
@@ -182,13 +185,17 @@ class QLearning:
             return {
                 "state": state,
                 "action": action,
-                "reward": -10,
+                "reward": self.blocked_penalty,
                 "done": False,
                 "event": "blocked",
+                "episode_result": None,
             }
 
-        reward, done, event = self.get_reward_and_done(game_map, player, start_center)
-        episode_result = self.apply_environment_result(game_map, player, start_center)
+        reward, done, event = self.get_reward_and_done(player, game_map)
+        episode_result = None
+        if done:
+            episode_result = self.capture_episode_result(player, event, game_map)
+            player.reset_to_center(start_center, journey_completed=True)
 
         return {
             "state": state,
