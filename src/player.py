@@ -21,7 +21,7 @@ class Player:
         pygame.K_KP1: (-1, 1),
     }
 
-    def __init__(self, x, y, size=40, grid_size=60):
+    def __init__(self, x, y, size=40, grid_size=60, revisit_penalty=-5):
         self.rect = pygame.Rect(x, y, size, size)
         self.grid_size = grid_size
         self.steps = 0
@@ -33,6 +33,7 @@ class Player:
         self.last_event = None
         self.journey_started = False
         self.journey_completed = False
+        self.revisit_penalty = revisit_penalty
         self._snap_to_grid()
 
     def _snap_to_grid(self):
@@ -126,7 +127,7 @@ class Player:
                     reward += 8
                     event = "cover"
                 else:
-                    reward -= 2
+                    reward += self.revisit_penalty
                     event = "revisit"
         elif tile == 3:
             event = "start"

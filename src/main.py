@@ -23,6 +23,10 @@ clock = pygame.time.Clock()
 running = True
 
 TRAINING_SEQUENCE = ["sarsa", "q_learning"]
+EXPLORATION_STRATEGY = "softmax"
+SOFTMAX_TEMPERATURE = 0.8
+REVISIT_PENALTY = -6
+DISTANCE_REWARD_FACTOR = 0.8
 
 
 def create_agent(algorithm_name, game_map):
@@ -30,11 +34,17 @@ def create_agent(algorithm_name, game_map):
     return agent_class(
         rows=game_map.rows,
         cols=game_map.cols,
-        alpha=0.1,
-        gamma=0.9,
+        alpha=0.25,
+        gamma=0.95,
         epsilon=1.0,
         epsilon_decay=0.995,
-        epsilon_min=0.05,
+        epsilon_min=0.02,
+        blocked_penalty=-18,
+        max_steps_per_episode=game_map.rows * game_map.cols * 3,
+        exploration_strategy=EXPLORATION_STRATEGY,
+        temperature=SOFTMAX_TEMPERATURE,
+        reward_shaping=True,
+        distance_reward_factor=DISTANCE_REWARD_FACTOR,
     )
 
 
@@ -228,7 +238,12 @@ def advance_training_round(player):
 
 game_map = create_game_map()
 start_center = get_start_center(game_map)
-player = Player(start_center[0], start_center[1], grid_size=game_map.hole_size)
+player = Player(
+    start_center[0],
+    start_center[1],
+    grid_size=game_map.hole_size,
+    revisit_penalty=REVISIT_PENALTY,
+)
 
 training_round_index = 0
 training_cycle_count = 1
