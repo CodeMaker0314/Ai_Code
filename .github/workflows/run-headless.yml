@@ -8,6 +8,7 @@ on:
 jobs:
   run-training:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,7 +23,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y build-essential pkg-config \
             libsdl2-dev libsdl2-image-dev libsmpeg-dev libportmidi-dev \
-            libfreetype6-dev libjpeg-dev zlib1g-dev libavcodec-dev libavformat-dev libswscale-dev
+            libfreetype6-dev libjpeg-dev zlib1g-dev libavcodec-dev libavformat-dev libswscale-dev \
+            xvfb
 
       - name: Install Python dependencies
         run: |
@@ -33,8 +35,7 @@ jobs:
         run: chmod +x run_headless.sh
 
       - name: Run headless training
-        run: ./run_headless.sh
-        timeout-minutes: 30
+        run: xvfb-run -s "-screen 0 640x480x24" ./run_headless.sh
 
       - name: Upload results
         uses: actions/upload-artifact@v4
