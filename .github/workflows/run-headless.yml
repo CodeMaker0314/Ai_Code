@@ -4,11 +4,14 @@ on:
   push:
     branches: [ main, master ]
   workflow_dispatch: {}
+  schedule:
+    # 每天台灣時間 08:00 觸發
+    - cron: '0 0 * * *'
 
 jobs:
   run-training:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 540
     steps:
       - name: Checkout
         uses: actions/checkout@v4

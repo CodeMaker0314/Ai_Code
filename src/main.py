@@ -14,8 +14,8 @@ from training_config import get_training_config
 pygame.init()
 
 WIDTH, HEIGHT = 480, 480
-# Display toggle: default off. Press 'D' to toggle display on/off at runtime.
-DISPLAY_ENABLED = False
+# Display toggle: default off for CI and headless runs.
+DISPLAY_ENABLED = os.getenv("DISPLAY_ENABLED", "0") == "1"
 if DISPLAY_ENABLED:
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Ai Train Game")
@@ -32,6 +32,11 @@ clock = pygame.time.Clock()
 running = True
 
 TRAINING_CONFIG = get_training_config()
+CI_RUN = os.getenv("CI_RUN", "0") == "1"
+CI_MAX_EPISODES = int(os.getenv("CI_MAX_EPISODES", "0") or 0)
+
+if CI_RUN:
+    print(f"CI mode enabled: stopping after {CI_MAX_EPISODES} episodes")
 TRAINING_SEQUENCE = ["sarsa", "q_learning"]
 EXPLORATION_STRATEGY = TRAINING_CONFIG["exploration_strategy"]
 SOFTMAX_TEMPERATURE = TRAINING_CONFIG["temperature"]
@@ -423,6 +428,11 @@ while running:
             print(log_line.strip())
             with open(get_step_log_file_path(), "a", encoding="utf-8") as f:
                 f.write(log_line)
+
+            if CI_RUN and CI_MAX_EPISODES > 0 and global_episode_count >= CI_MAX_EPISODES:
+                print(f"CI run completed after {global_episode_count} episodes.")
+                running = False
+                break
 
             completed_result = None
             if event_name == "coverage_complete" and episode_result is not None and current_episode_path:
