@@ -290,15 +290,22 @@ def run_standalone_player(target_path=None):
         return 1
 
     pygame.init()
-    screen = pygame.display.set_mode(get_replay_window_size(replay_data))
-    pygame.display.set_caption(f"Replay - {os.path.basename(replay_file_path)}")
+    # Display toggle: default off. Use off-screen surface to avoid window popping up.
+    display_enabled = False
+    if display_enabled:
+        screen = pygame.display.set_mode(get_replay_window_size(replay_data))
+        pygame.display.set_caption(f"Replay - {os.path.basename(replay_file_path)}")
+    else:
+        screen = pygame.Surface(get_replay_window_size(replay_data))
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(None, 28)
     playback = ReplayPlayback(fps=replay_data.get("fps", DEFAULT_REPLAY_FPS))
     playback.start(replay_data, now_ms=pygame.time.get_ticks())
 
     print(f"Loaded replay: {replay_file_path}")
-    print("Controls: Space=pause/resume, R=restart, Esc=quit")
+    # Display toggle: default off. Press 'D' to toggle display on/off.
+    display_enabled = False
+    print("Controls: Space=pause/resume, R=restart, Esc=quit, D=toggle display (default off)")
 
     running = True
     while running:
@@ -314,14 +321,28 @@ def run_standalone_player(target_path=None):
                     playback.toggle_pause(now_ms=now_ms)
                 elif event.key == pygame.K_r:
                     playback.restart(now_ms=now_ms)
+                elif event.key == pygame.K_d:
+                    display_enabled = not display_enabled
+                    if display_enabled:
+                        screen = pygame.display.set_mode(get_replay_window_size(replay_data))
+                        pygame.display.set_caption(f"Replay - {os.path.basename(replay_file_path)}")
+                    else:
+                        try:
+                            pygame.display.quit()
+                        except Exception:
+                            pass
+                        screen = pygame.Surface(get_replay_window_size(replay_data))
+
+                    print("Display enabled:", display_enabled)
 
         playback.update(now_ms)
-        screen.fill((255, 255, 255))
-        playback.draw(screen)
+        if display_enabled:
+            screen.fill((255, 255, 255))
+            playback.draw(screen)
 
-        info_surface = font.render(playback.get_status_text(), True, (0, 0, 0))
-        screen.blit(info_surface, (10, 10))
-        pygame.display.flip()
+            info_surface = font.render(playback.get_status_text(), True, (0, 0, 0))
+            screen.blit(info_surface, (10, 10))
+            pygame.display.flip()
         clock.tick(60)
 
     pygame.quit()

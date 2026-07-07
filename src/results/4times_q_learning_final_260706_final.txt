@@ -1,0 +1,25 @@
+Round: 4
+Phase: 2/2
+Algorithm: q_learning
+Episode: 4069
+Global Episode: 18917
+Event: coverage_complete
+Total Score: 254
+Epsilon: 0.0200
+Steps: 130
+Steps_X: 60
+Steps_Y: 70
+Covered White Tiles: 50/50
+Selected From Completion Runs: 10
+Path Length: 87
+Legend: S=Start, H=Hole, *=Path, .=Empty
+
+S * * * H * * *
+* * * * * * * H
+* * H * * * * H
+H * H * * * * H
+* * * * * * H *
+* * * * H * * *
+* H * * H * H *
+* * * * H * * *
+

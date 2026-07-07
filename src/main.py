@@ -9,12 +9,21 @@ from SARSA import SARSA
 from path_image import draw_path_image, get_path_image_file_path
 from player import Player
 from replay import DEFAULT_REPLAY_FPS, ReplayPlayback, ReplayStore
+from training_config import get_training_config
 
 pygame.init()
 
 WIDTH, HEIGHT = 480, 480
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Ai Train Game")
+# Display toggle: default off. Press 'D' to toggle display on/off at runtime.
+DISPLAY_ENABLED = False
+if DISPLAY_ENABLED:
+    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+    pygame.display.set_caption("Ai Train Game")
+else:
+    # Use an off-screen surface when display is disabled so no window is created.
+    screen = pygame.Surface((WIDTH, HEIGHT))
+
+print("Display enabled:", DISPLAY_ENABLED, "- press 'D' to toggle")
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -22,11 +31,12 @@ BLACK = (0, 0, 0)
 clock = pygame.time.Clock()
 running = True
 
+TRAINING_CONFIG = get_training_config()
 TRAINING_SEQUENCE = ["sarsa", "q_learning"]
-EXPLORATION_STRATEGY = "softmax"
-SOFTMAX_TEMPERATURE = 0.8
-REVISIT_PENALTY = -6
-DISTANCE_REWARD_FACTOR = 0.8
+EXPLORATION_STRATEGY = TRAINING_CONFIG["exploration_strategy"]
+SOFTMAX_TEMPERATURE = TRAINING_CONFIG["temperature"]
+REVISIT_PENALTY = TRAINING_CONFIG["revisit_penalty"]
+DISTANCE_REWARD_FACTOR = TRAINING_CONFIG["distance_reward_factor"]
 
 
 def create_agent(algorithm_name, game_map):
@@ -34,13 +44,13 @@ def create_agent(algorithm_name, game_map):
     return agent_class(
         rows=game_map.rows,
         cols=game_map.cols,
-        alpha=0.25,
-        gamma=0.95,
-        epsilon=1.0,
-        epsilon_decay=0.995,
-        epsilon_min=0.02,
-        blocked_penalty=-18,
-        max_steps_per_episode=game_map.rows * game_map.cols * 3,
+        alpha=TRAINING_CONFIG["alpha"],
+        gamma=TRAINING_CONFIG["gamma"],
+        epsilon=TRAINING_CONFIG["epsilon"],
+        epsilon_decay=TRAINING_CONFIG["epsilon_decay"],
+        epsilon_min=TRAINING_CONFIG["epsilon_min"],
+        blocked_penalty=TRAINING_CONFIG["blocked_penalty"],
+        max_steps_per_episode=max(game_map.rows * game_map.cols * 2, 120),
         exploration_strategy=EXPLORATION_STRATEGY,
         temperature=SOFTMAX_TEMPERATURE,
         reward_shaping=True,
@@ -120,7 +130,6 @@ def write_best_coverage_result(best_result):
         f"Phase: {best_result['training_round_index'] + 1}/{len(TRAINING_SEQUENCE)}",
         f"Algorithm: {best_result['algorithm_name']}",
         f"Episode: {best_result['episode_count']}",
-        f"Global Episode: {best_result['global_episode_count']}",
         f"Event: {best_result['event_name']}",
         f"Total Score: {best_result['score']}",
         f"Epsilon: {best_result['epsilon']:.4f}",
@@ -329,6 +338,23 @@ while running:
                 replay_playback.clear()
                 print("Replay stopped")
 
+            elif event.key == pygame.K_d:
+                # Toggle display on/off. Create or close the display window accordingly.
+                DISPLAY_ENABLED = not DISPLAY_ENABLED
+                if DISPLAY_ENABLED:
+                    # Create a real window and replace the off-screen surface
+                    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+                    pygame.display.set_caption("Ai Train Game")
+                else:
+                    # Close the window and use an off-screen surface
+                    try:
+                        pygame.display.quit()
+                    except Exception:
+                        pass
+                    screen = pygame.Surface((WIDTH, HEIGHT))
+
+                print("Display enabled:", DISPLAY_ENABLED)
+
             elif not replay_playback.is_showing and not ai_player_mode and not ai_training:
                 moved = player.handle_key(event.key, screen.get_rect())
                 if moved:
@@ -387,7 +413,6 @@ while running:
                 f"Phase: {training_round_index + 1}/{len(TRAINING_SEQUENCE)}, "
                 f"Algorithm: {algorithm_name}, "
                 f"Episode: {episode_count}, "
-                f"Global Episode: {global_episode_count}, "
                 f"Event: {event_name}, "
                 f"Total Score: {score}, "
                 f"Covered White Tiles: {covered_white_tiles}/{total_white_tiles}, "
@@ -450,16 +475,10 @@ while running:
     else:
         current_episode_path = []
 
-    screen.fill(WHITE)
+    # Compute info text regardless of display state
     if replay_playback.is_showing:
-        replay_playback.draw(screen)
         info_text = replay_playback.get_status_text()
     else:
-        game_map.draw_grid(screen)
-        game_map.draw_hole(screen)
-        game_map.draw_startpoint(screen, player.get_startpoint_status())
-        player.draw(screen)
-
         mode_text = "Manual"
         if ai_training:
             mode_text = "Training"
@@ -473,9 +492,18 @@ while running:
             f"Covered: {player.covered_white_tiles}/{game_map.white_tile_count} | Epsilon: {agent.epsilon:.3f}"
         )
 
-    info_surface = font.render(info_text, True, BLACK)
+    if DISPLAY_ENABLED:
+        screen.fill(WHITE)
+        if replay_playback.is_showing:
+            replay_playback.draw(screen)
+        else:
+            game_map.draw_grid(screen)
+            game_map.draw_hole(screen)
+            game_map.draw_startpoint(screen, player.get_startpoint_status())
+            player.draw(screen)
 
-    screen.blit(info_surface, (10, 10))
-    pygame.display.flip()
+        info_surface = font.render(info_text, True, BLACK)
+        screen.blit(info_surface, (10, 10))
+        pygame.display.flip()
 
 pygame.quit()
