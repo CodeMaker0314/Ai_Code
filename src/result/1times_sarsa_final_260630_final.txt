@@ -1,0 +1,25 @@
+Round: 1
+Phase: 1/2
+Algorithm: sarsa
+Episode: 2383
+Global Episode: 2383
+Event: coverage_complete
+Total Score: 401
+Epsilon: 0.0200
+Steps: 100
+Steps_X: 48
+Steps_Y: 52
+Covered White Tiles: 52/52
+Selected From Completion Runs: 10
+Path Length: 70
+Legend: S=Start, H=Hole, *=Path, .=Empty
+
+S H * * H H H *
+* * * * * * * *
+* * * * * * * H
+* H * * * * * *
+* H H * * * * H
+* * * * H * * *
+H * * * * * * *
+* * * * * * * *
+

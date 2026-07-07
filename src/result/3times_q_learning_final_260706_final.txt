@@ -1,0 +1,25 @@
+Round: 3
+Phase: 2/2
+Algorithm: q_learning
+Episode: 1064
+Global Episode: 9865
+Event: coverage_complete
+Total Score: 408
+Epsilon: 0.0200
+Steps: 90
+Steps_X: 42
+Steps_Y: 48
+Covered White Tiles: 48/48
+Selected From Completion Runs: 10
+Path Length: 61
+Legend: S=Start, H=Hole, *=Path, .=Empty
+
+S * H H H H * *
+H * * * * * * *
+* H * * * * * *
+* H * * * H * *
+* * * * * H * *
+H * * * * * * H
+* * * H * * * *
+* H * * H * H *
+

@@ -1,0 +1,25 @@
+Round: 3
+Phase: 1/2
+Algorithm: sarsa
+Episode: 1238
+Global Episode: 8769
+Event: coverage_complete
+Total Score: 380
+Epsilon: 0.0200
+Steps: 98
+Steps_X: 46
+Steps_Y: 52
+Covered White Tiles: 48/48
+Selected From Completion Runs: 10
+Path Length: 65
+Legend: S=Start, H=Hole, *=Path, .=Empty
+
+S * H H H H * *
+H * * * * * * *
+* H * * * * * *
+* H * * * H * *
+* * * * * H * *
+H * * * * * * H
+* * * H * * * *
+* H * * H * H *
+

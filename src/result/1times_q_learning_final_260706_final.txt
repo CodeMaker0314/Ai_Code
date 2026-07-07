@@ -1,0 +1,25 @@
+Round: 1
+Phase: 2/2
+Algorithm: q_learning
+Episode: 1310
+Global Episode: 2342
+Event: coverage_complete
+Total Score: 415
+Epsilon: 0.0200
+Steps: 94
+Steps_X: 44
+Steps_Y: 50
+Covered White Tiles: 52/52
+Selected From Completion Runs: 10
+Path Length: 68
+Legend: S=Start, H=Hole, *=Path, .=Empty
+
+S * * H H * * H
+H * * H * * * *
+* H * H * * * *
+* * * * * H * *
+* H * * * * * *
+* * * * H * H *
+* * * * * * * *
+* * * * * * * *
+
