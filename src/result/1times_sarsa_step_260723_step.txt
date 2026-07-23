@@ -1,0 +1,10 @@
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 1, Event: hole, Total Score: -67, Covered White Tiles: 7/52, Epsilon: 0.9800
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 2, Event: hole, Total Score: -30, Covered White Tiles: 16/52, Epsilon: 0.9604
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 3, Event: hole, Total Score: -87, Covered White Tiles: 2/52, Epsilon: 0.9412
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 4, Event: hole, Total Score: -43, Covered White Tiles: 9/52, Epsilon: 0.9224
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 5, Event: hole, Total Score: -84, Covered White Tiles: 3/52, Epsilon: 0.9039
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 6, Event: hole, Total Score: -103, Covered White Tiles: 7/52, Epsilon: 0.8858
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 7, Event: hole, Total Score: -91, Covered White Tiles: 2/52, Epsilon: 0.8681
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 8, Event: hole, Total Score: -85, Covered White Tiles: 3/52, Epsilon: 0.8508
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 9, Event: hole, Total Score: -89, Covered White Tiles: 3/52, Epsilon: 0.8337
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 10, Event: hole, Total Score: -65, Covered White Tiles: 6/52, Epsilon: 0.8171
