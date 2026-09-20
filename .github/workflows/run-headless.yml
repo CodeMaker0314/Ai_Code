@@ -63,8 +63,8 @@ jobs:
           # Ensure destination folder exists and copy results
           mkdir -p src/result
           cp -r src/results/. src/result/ || true
-            git add src/result || true
-            git commit -m "CI: add results to src/result from run ${{ github.run_id }}" || echo "No changes to commit"
-            git push origin HEAD:${{ github.ref_name }} || echo "Push failed"
+          git add src/result || true
+          git commit -m "CI: add results to src/result from run ${{ github.run_id }}" || echo "No changes to commit"
+          git push origin HEAD:${{ github.ref_name }} || echo "Push failed"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
