@@ -29,10 +29,14 @@ class SARSA:
         temperature=1.0,
         reward_shaping=True,
         distance_reward_factor=0.5,
+        alpha_min=0.05,
+        return_distance_reward_factor=None,
+        max_steps_penalty=-20,
     ):
         self.rows = rows
         self.cols = cols
         self.alpha = alpha
+        self.alpha_min = min(max(0.0, alpha_min), alpha)
         self.gamma = gamma
         self.epsilon = epsilon
         self.epsilon_decay = epsilon_decay
@@ -43,8 +47,17 @@ class SARSA:
         self.temperature = max(0.1, temperature)
         self.reward_shaping = reward_shaping
         self.distance_reward_factor = distance_reward_factor
+        self.return_distance_reward_factor = (
+            distance_reward_factor * 0.5
+            if return_distance_reward_factor is None
+            else return_distance_reward_factor
+        )
+        self.max_steps_penalty = max_steps_penalty
         self.q_table = {}
+        self.state_action_visits = {}
         self.last_episode_result = None
+        self.pending_state = None
+        self.pending_action = None
 
     def get_position_from_player(self, player):
         col = int(player.rect.centerx // player.grid_size)
@@ -63,11 +76,11 @@ class SARSA:
             self.q_table[state] = [0.0 for _ in range(len(self.actions))]
         return self.q_table[state]
 
-    def get_valid_actions(self, state):
+    def get_valid_actions(self, state, game_map=None):
         return [
             action_index
             for action_index in range(len(self.actions))
-            if self.is_valid_state(state, action_index)
+            if self.is_valid_state(state, action_index, game_map)
         ]
 
     def action_to_move(self, action_index):
@@ -80,9 +93,29 @@ class SARSA:
         next_col = col + dx
         return next_row, next_col, visited_mask
 
-    def is_valid_state(self, state, action_index):
+    def is_valid_state(self, state, action_index, game_map=None):
         next_row, next_col, _ = self.get_next_state(state, action_index)
-        return 0 <= next_row < self.rows and 0 <= next_col < self.cols
+        if not (0 <= next_row < self.rows and 0 <= next_col < self.cols):
+            return False
+
+        if game_map is None:
+            return True
+
+        # Holes are observable hazards, not useful exploration targets.
+        # Match Player.step() by also rejecting diagonals that cut past one.
+        if game_map.map_data[next_row][next_col] == 1:
+            return False
+
+        dx, dy = self.action_to_move(action_index)
+        if dx and dy:
+            row, col, _ = state
+            if (
+                game_map.map_data[row][col + dx] == 1
+                or game_map.map_data[row + dy][col] == 1
+            ):
+                return False
+
+        return True
 
     def choose_softmax_action(self, state, valid_actions):
         q_values = self.get_q_values(state)
@@ -93,8 +126,8 @@ class SARSA:
             return random.choice(valid_actions)
         return random.choices(valid_actions, weights=weights, k=1)[0]
 
-    def choose_action_with_bounds(self, state):
-        valid_actions = self.get_valid_actions(state)
+    def choose_action_with_bounds(self, state, game_map=None):
+        valid_actions = self.get_valid_actions(state, game_map)
 
         if not valid_actions:
             return 0
@@ -110,6 +143,11 @@ class SARSA:
         best_actions = [action for action in valid_actions if q_values[action] == max_q]
         return random.choice(best_actions)
 
+    def get_learning_rate(self, state, action):
+        """Return a high initial rate that stabilizes as a pair is revisited."""
+        visits = self.state_action_visits.get((state, action), 0)
+        return max(self.alpha_min, self.alpha / math.sqrt(visits + 1))
+
     def update(self, state, action, reward, next_state, next_action, done):
         current_q = self.get_q_values(state)[action]
 
@@ -119,7 +157,9 @@ class SARSA:
             next_q = self.get_q_values(next_state)[next_action]
             target_q = reward + self.gamma * next_q
 
-        self.q_table[state][action] = current_q + self.alpha * (target_q - current_q)
+        learning_rate = self.get_learning_rate(state, action)
+        self.q_table[state][action] = current_q + learning_rate * (target_q - current_q)
+        self.state_action_visits[(state, action)] = self.state_action_visits.get((state, action), 0) + 1
 
     def decay_epsilon(self):
         self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
@@ -161,7 +201,7 @@ class SARSA:
                 dist_before = max(abs(row_b - start_row), abs(col_b - start_col))
                 dist_after = max(abs(row_a - start_row), abs(col_a - start_col))
                 # give small reward when getting closer to start
-                reward += (self.distance_reward_factor * 0.5) * (dist_before - dist_after)
+                reward += self.return_distance_reward_factor * (dist_before - dist_after)
 
         return reward
 
@@ -169,9 +209,9 @@ class SARSA:
         if (
             not done
             and self.max_steps_per_episode is not None
-            and player.steps >= self.max_steps_per_episode
+            and player.moves >= self.max_steps_per_episode
         ):
-            penalty = -20
+            penalty = self.max_steps_penalty
             reward += penalty
             player.score += penalty
             done = True
@@ -182,6 +222,7 @@ class SARSA:
     def capture_episode_result(self, player, event, game_map):
         result = {
             "event": event,
+            "moves": player.moves,
             "steps": player.steps,
             "score": player.score,
             "steps_x": player.steps_x,
@@ -196,17 +237,24 @@ class SARSA:
         position = self.get_position_from_player(player)
         state = self.make_state(position, player.visited_white_mask)
 
-        action = self.choose_action_with_bounds(state)
+        if self.pending_state == state and self.pending_action is not None:
+            action = self.pending_action
+        else:
+            action = self.choose_action_with_bounds(state, game_map)
+        self.pending_state = None
+        self.pending_action = None
         dx, dy = self.action_to_move(action)
 
-        moved = player.step(dx, dy, bounds_rect)
+        moved = player.step(dx, dy, bounds_rect, game_map)
 
         if not moved:
             reward = self.blocked_penalty
             next_state = self.make_state(position, player.visited_white_mask)
-            next_action = self.choose_action_with_bounds(next_state)
+            next_action = self.choose_action_with_bounds(next_state, game_map)
             done = False
             self.update(state, action, reward, next_state, next_action, done)
+            self.pending_state = next_state
+            self.pending_action = next_action
             return {
                 "state": state,
                 "action": action,
@@ -223,7 +271,7 @@ class SARSA:
         next_state_before_reset = self.make_state(next_position, player.visited_white_mask)
         reward = self.shape_reward(state, next_state_before_reset, reward, done, game_map)
         reward, done, event = self.check_max_steps(player, reward, done, event)
-        next_action = None if done else self.choose_action_with_bounds(next_state_before_reset)
+        next_action = None if done else self.choose_action_with_bounds(next_state_before_reset, game_map)
 
         self.update(state, action, reward, next_state_before_reset, next_action, done)
 
@@ -232,6 +280,10 @@ class SARSA:
             episode_result = self.capture_episode_result(player, event, game_map)
             self.decay_epsilon()
             player.reset_to_center(start_center, journey_completed=True)
+        else:
+            # Use exactly the action used by the SARSA target next time.
+            self.pending_state = next_state_before_reset
+            self.pending_action = next_action
 
         return {
             "state": state,
@@ -244,8 +296,8 @@ class SARSA:
             "episode_result": episode_result,
         }
 
-    def get_best_action(self, state):
-        valid_actions = self.get_valid_actions(state)
+    def get_best_action(self, state, game_map=None):
+        valid_actions = self.get_valid_actions(state, game_map)
         if not valid_actions:
             return 0
 
@@ -256,10 +308,10 @@ class SARSA:
 
     def play_best_step(self, player, game_map, bounds_rect, start_center):
         state = self.get_state_from_player(player)
-        action = self.get_best_action(state)
+        action = self.get_best_action(state, game_map)
         dx, dy = self.action_to_move(action)
 
-        moved = player.step(dx, dy, bounds_rect)
+        moved = player.step(dx, dy, bounds_rect, game_map)
         if not moved:
             return {
                 "state": state,

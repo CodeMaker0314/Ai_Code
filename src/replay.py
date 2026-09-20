@@ -68,6 +68,7 @@ class ReplayStore:
                 "event_name": completed_result["event_name"],
                 "score": completed_result["score"],
                 "epsilon": completed_result["epsilon"],
+                "moves": completed_result["moves"],
                 "steps": completed_result["steps"],
                 "steps_x": completed_result["steps_x"],
                 "steps_y": completed_result["steps_y"],

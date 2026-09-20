@@ -50,16 +50,22 @@ def create_agent(algorithm_name, game_map):
         rows=game_map.rows,
         cols=game_map.cols,
         alpha=TRAINING_CONFIG["alpha"],
+        alpha_min=TRAINING_CONFIG["alpha_min"],
         gamma=TRAINING_CONFIG["gamma"],
         epsilon=TRAINING_CONFIG["epsilon"],
         epsilon_decay=TRAINING_CONFIG["epsilon_decay"],
         epsilon_min=TRAINING_CONFIG["epsilon_min"],
         blocked_penalty=TRAINING_CONFIG["blocked_penalty"],
-        max_steps_per_episode=max(game_map.rows * game_map.cols * 2, 120),
+        max_steps_penalty=TRAINING_CONFIG["max_steps_penalty"],
+        max_steps_per_episode=max(
+            game_map.rows * game_map.cols * TRAINING_CONFIG["max_steps_multiplier"],
+            TRAINING_CONFIG["min_max_steps"],
+        ),
         exploration_strategy=EXPLORATION_STRATEGY,
         temperature=SOFTMAX_TEMPERATURE,
         reward_shaping=True,
         distance_reward_factor=DISTANCE_REWARD_FACTOR,
+        return_distance_reward_factor=TRAINING_CONFIG["return_distance_reward_factor"],
     )
 
 
@@ -120,8 +126,10 @@ def is_better_coverage_result(candidate, current_best):
     if current_best is None:
         return True
 
-    if candidate["steps"] != current_best["steps"]:
-        return candidate["steps"] < current_best["steps"]
+    # All candidates reached the same goal (cover every white tile and return
+    # to start), so the route with fewer successful moves is the shortest.
+    if candidate["moves"] != current_best["moves"]:
+        return candidate["moves"] < current_best["moves"]
 
     if candidate["score"] != current_best["score"]:
         return candidate["score"] > current_best["score"]
@@ -138,6 +146,7 @@ def write_best_coverage_result(best_result):
         f"Event: {best_result['event_name']}",
         f"Total Score: {best_result['score']}",
         f"Epsilon: {best_result['epsilon']:.4f}",
+        f"Moves: {best_result['moves']}",
         f"Steps: {best_result['steps']}",
         f"Steps_X: {best_result['steps_x']}",
         f"Steps_Y: {best_result['steps_y']}",
@@ -178,6 +187,7 @@ def get_final_log_file_path():
 def build_completed_result(
     event_name,
     score,
+    moves,
     steps,
     steps_x,
     steps_y,
@@ -193,6 +203,7 @@ def build_completed_result(
         "event_name": event_name,
         "score": score,
         "epsilon": agent.epsilon,
+        "moves": moves,
         "steps": steps,
         "steps_x": steps_x,
         "steps_y": steps_y,
@@ -257,6 +268,11 @@ player = Player(
     start_center[1],
     grid_size=game_map.hole_size,
     revisit_penalty=REVISIT_PENALTY,
+    move_reward=TRAINING_CONFIG["move_reward"],
+    cover_reward=TRAINING_CONFIG["cover_reward"],
+    completion_reward=TRAINING_CONFIG["completion_reward"],
+    hole_penalty=TRAINING_CONFIG["hole_penalty"],
+    out_of_bounds_penalty=TRAINING_CONFIG["out_of_bounds_penalty"],
 )
 
 training_round_index = 0
@@ -279,7 +295,7 @@ replay_playback = ReplayPlayback(fps=DEFAULT_REPLAY_FPS)
 session_date_short = datetime.now().strftime("%y%m%d")
 current_episode_path = []
 post_completion_results = []
-POST_COMPLETION_RUNS = 10
+POST_COMPLETION_RUNS = TRAINING_CONFIG["post_completion_runs"]
 
 
 while running:
@@ -316,7 +332,7 @@ while running:
             elif event.key == pygame.K_q:
                 replay_playback.clear()
                 training_cycle_count = 1
-                training_round_index = 0
+                training_round_index = 1
                 algorithm_name = "q_learning"
                 game_map = create_game_map()
                 start_center = get_start_center(game_map)
@@ -329,7 +345,7 @@ while running:
             elif event.key == pygame.K_s:
                 replay_playback.clear()
                 training_cycle_count = 1
-                training_round_index = 1
+                training_round_index = 0
                 algorithm_name = "sarsa"
                 game_map = create_game_map()
                 start_center = get_start_center(game_map)
@@ -361,7 +377,7 @@ while running:
                 print("Display enabled:", DISPLAY_ENABLED)
 
             elif not replay_playback.is_showing and not ai_player_mode and not ai_training:
-                moved = player.handle_key(event.key, screen.get_rect())
+                moved = player.handle_key(event.key, screen.get_rect(), game_map)
                 if moved:
                     reward, done, tile_event = player.observe_tile(game_map)
                     print(
@@ -397,6 +413,7 @@ while running:
 
             if episode_result is not None:
                 event_name = episode_result.get("event", info.get("event", "unknown"))
+                moves = episode_result["moves"]
                 steps = episode_result["steps"]
                 score = episode_result["score"]
                 steps_x = episode_result["steps_x"]
@@ -406,6 +423,7 @@ while running:
             else:
                 event_name = info.get("event", "unknown")
                 score = player.score
+                moves = player.moves
                 steps = player.steps
                 steps_x = player.steps_x
                 steps_y = player.steps_y
@@ -420,6 +438,7 @@ while running:
                 f"Episode: {episode_count}, "
                 f"Event: {event_name}, "
                 f"Total Score: {score}, "
+                f"Moves: {moves}, "
                 f"Covered White Tiles: {covered_white_tiles}/{total_white_tiles}, "
                 f"Epsilon: {agent.epsilon:.4f}"
                 f"{completion_marker}\n"
@@ -439,6 +458,7 @@ while running:
                 completed_result = build_completed_result(
                     event_name,
                     score,
+                    moves,
                     steps,
                     steps_x,
                     steps_y,
