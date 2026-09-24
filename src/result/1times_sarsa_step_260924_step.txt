@@ -1,0 +1,10 @@
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 1, Event: max_steps, Total Score: -56, Moves: 256, Covered White Tiles: 35/50, Epsilon: 0.9940
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 2, Event: max_steps, Total Score: -96, Moves: 256, Covered White Tiles: 31/50, Epsilon: 0.9880
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 3, Event: max_steps, Total Score: -46, Moves: 256, Covered White Tiles: 36/50, Epsilon: 0.9821
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 4, Event: max_steps, Total Score: 64, Moves: 256, Covered White Tiles: 47/50, Epsilon: 0.9762
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 5, Event: max_steps, Total Score: -66, Moves: 256, Covered White Tiles: 34/50, Epsilon: 0.9704
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 6, Event: max_steps, Total Score: 14, Moves: 256, Covered White Tiles: 42/50, Epsilon: 0.9645
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 7, Event: max_steps, Total Score: -46, Moves: 256, Covered White Tiles: 36/50, Epsilon: 0.9587
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 8, Event: max_steps, Total Score: 24, Moves: 256, Covered White Tiles: 43/50, Epsilon: 0.9530
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 9, Event: max_steps, Total Score: -46, Moves: 256, Covered White Tiles: 36/50, Epsilon: 0.9473
+Round: 1, Phase: 1/2, Algorithm: sarsa, Episode: 10, Event: max_steps, Total Score: -36, Moves: 256, Covered White Tiles: 37/50, Epsilon: 0.9416
